@@ -1,0 +1,2233 @@
+nohup: 忽略输入
+///////////////////////////////////////////////////////
+Namespace(batchSize=16, dataset_dir='/home/pc/work/BasicIRSTD-main/data', epochs=400, img_norm_cfg=None, img_norm_cfg_mean=None, img_norm_cfg_std=None, mode='train', model='BasicUNet_plus', name='basicunet_test_results', num_workers=8, optimizer_name='Adam', optimizer_settings={'lr': 0.0005}, patchSize=256, pretrained=None, resume=None, scheduler_name='MultiStepLR', scheduler_settings={'step': [200, 300], 'gamma': 0.5}, seed=42, test_freq=10, testset=['IRSTD-1K'], threshold=0.5, trainset='IRSTD-1K')
+800 samples from IRSTD-1K for train
+201 samples from IRSTD-1K for val
+
+========== Training ===========
+Train epoch 000 on IRSTD-1K, loss: 0.8107, time elapsed 0:9s.
+Train epoch 001 on IRSTD-1K, loss: 0.5775, time elapsed 0:8s.
+Train epoch 002 on IRSTD-1K, loss: 0.4852, time elapsed 0:8s.
+Train epoch 003 on IRSTD-1K, loss: 0.4846, time elapsed 0:8s.
+Train epoch 004 on IRSTD-1K, loss: 0.4338, time elapsed 0:8s.
+Train epoch 005 on IRSTD-1K, loss: 0.4295, time elapsed 0:8s.
+Train epoch 006 on IRSTD-1K, loss: 0.4562, time elapsed 0:8s.
+Train epoch 007 on IRSTD-1K, loss: 0.4227, time elapsed 0:8s.
+Train epoch 008 on IRSTD-1K, loss: 0.4416, time elapsed 0:8s.
+Train epoch 009 on IRSTD-1K, loss: 0.4293, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 76.52437090873718
+mIoU: 52.3834172509529  Best_mIoU: 52.3834172509529
+nIoU: 53.47121261816944  Best_nIoU: 53.47121261816944
+Pd: 87.20538720538721
+Fa: 94.76011473452672
+
+Train epoch 010 on IRSTD-1K, loss: 0.4126, time elapsed 0:8s.
+Train epoch 011 on IRSTD-1K, loss: 0.4081, time elapsed 0:8s.
+Train epoch 012 on IRSTD-1K, loss: 0.3748, time elapsed 0:8s.
+Train epoch 013 on IRSTD-1K, loss: 0.4097, time elapsed 0:8s.
+Train epoch 014 on IRSTD-1K, loss: 0.3946, time elapsed 0:8s.
+Train epoch 015 on IRSTD-1K, loss: 0.3911, time elapsed 0:8s.
+Train epoch 016 on IRSTD-1K, loss: 0.3826, time elapsed 0:8s.
+Train epoch 017 on IRSTD-1K, loss: 0.3726, time elapsed 0:8s.
+Train epoch 018 on IRSTD-1K, loss: 0.3868, time elapsed 0:8s.
+Train epoch 019 on IRSTD-1K, loss: 0.3707, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 75.7269561290741
+mIoU: 59.4078628053713  Best_mIoU: 59.4078628053713
+nIoU: 60.15231609328542  Best_nIoU: 60.15231609328542
+Pd: 90.9090909090909
+Fa: 53.178016969468445
+
+Train epoch 020 on IRSTD-1K, loss: 0.3897, time elapsed 0:8s.
+Train epoch 021 on IRSTD-1K, loss: 0.3800, time elapsed 0:8s.
+Train epoch 022 on IRSTD-1K, loss: 0.3555, time elapsed 0:8s.
+Train epoch 023 on IRSTD-1K, loss: 0.3729, time elapsed 0:8s.
+Train epoch 024 on IRSTD-1K, loss: 0.3633, time elapsed 0:8s.
+Train epoch 025 on IRSTD-1K, loss: 0.3768, time elapsed 0:8s.
+Train epoch 026 on IRSTD-1K, loss: 0.3784, time elapsed 0:8s.
+Train epoch 027 on IRSTD-1K, loss: 0.3552, time elapsed 0:8s.
+Train epoch 028 on IRSTD-1K, loss: 0.3649, time elapsed 0:8s.
+Train epoch 029 on IRSTD-1K, loss: 0.3534, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 75.19075870513916
+mIoU: 58.724363792548054  Best_mIoU: 59.4078628053713
+nIoU: 60.53847046507439  Best_nIoU: 60.53847046507439
+Pd: 89.8989898989899
+Fa: 49.66697815689258
+
+Train epoch 030 on IRSTD-1K, loss: 0.3562, time elapsed 0:8s.
+Train epoch 031 on IRSTD-1K, loss: 0.3478, time elapsed 0:8s.
+Train epoch 032 on IRSTD-1K, loss: 0.3722, time elapsed 0:8s.
+Train epoch 033 on IRSTD-1K, loss: 0.3529, time elapsed 0:8s.
+Train epoch 034 on IRSTD-1K, loss: 0.3605, time elapsed 0:8s.
+Train epoch 035 on IRSTD-1K, loss: 0.3435, time elapsed 0:8s.
+Train epoch 036 on IRSTD-1K, loss: 0.3985, time elapsed 0:8s.
+Train epoch 037 on IRSTD-1K, loss: 0.3607, time elapsed 0:8s.
+Train epoch 038 on IRSTD-1K, loss: 0.4141, time elapsed 0:8s.
+Train epoch 039 on IRSTD-1K, loss: 0.3571, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.71643686294556
+mIoU: 60.71388671656798  Best_mIoU: 60.71388671656798
+nIoU: 62.42151845102899  Best_nIoU: 62.42151845102899
+Pd: 87.54208754208754
+Fa: 33.70598278706893
+
+Train epoch 040 on IRSTD-1K, loss: 0.3503, time elapsed 0:8s.
+Train epoch 041 on IRSTD-1K, loss: 0.3373, time elapsed 0:8s.
+Train epoch 042 on IRSTD-1K, loss: 0.3284, time elapsed 0:8s.
+Train epoch 043 on IRSTD-1K, loss: 0.3499, time elapsed 0:8s.
+Train epoch 044 on IRSTD-1K, loss: 0.3571, time elapsed 0:8s.
+Train epoch 045 on IRSTD-1K, loss: 0.3308, time elapsed 0:8s.
+Train epoch 046 on IRSTD-1K, loss: 0.3694, time elapsed 0:8s.
+Train epoch 047 on IRSTD-1K, loss: 0.3420, time elapsed 0:8s.
+Train epoch 048 on IRSTD-1K, loss: 0.3328, time elapsed 0:8s.
+Train epoch 049 on IRSTD-1K, loss: 0.3292, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 72.50292301177979
+mIoU: 62.54521733973789  Best_mIoU: 62.54521733973789
+nIoU: 62.97511927231943  Best_nIoU: 62.97511927231943
+Pd: 90.9090909090909
+Fa: 13.816415957990102
+
+Train epoch 050 on IRSTD-1K, loss: 0.3538, time elapsed 0:8s.
+Train epoch 051 on IRSTD-1K, loss: 0.3363, time elapsed 0:8s.
+Train epoch 052 on IRSTD-1K, loss: 0.3677, time elapsed 0:8s.
+Train epoch 053 on IRSTD-1K, loss: 0.3461, time elapsed 0:8s.
+Train epoch 054 on IRSTD-1K, loss: 0.3433, time elapsed 0:8s.
+Train epoch 055 on IRSTD-1K, loss: 0.3331, time elapsed 0:8s.
+Train epoch 056 on IRSTD-1K, loss: 0.3374, time elapsed 0:8s.
+Train epoch 057 on IRSTD-1K, loss: 0.3541, time elapsed 0:8s.
+Train epoch 058 on IRSTD-1K, loss: 0.3591, time elapsed 0:8s.
+Train epoch 059 on IRSTD-1K, loss: 0.3461, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 80.40832877159119
+mIoU: 65.55511965476659  Best_mIoU: 65.55511965476659
+nIoU: 63.55788621633663  Best_nIoU: 63.55788621633663
+Pd: 92.92929292929293
+Fa: 29.132139388821088
+
+Train epoch 060 on IRSTD-1K, loss: 0.3293, time elapsed 0:8s.
+Train epoch 061 on IRSTD-1K, loss: 0.3544, time elapsed 0:8s.
+Train epoch 062 on IRSTD-1K, loss: 0.3376, time elapsed 0:8s.
+Train epoch 063 on IRSTD-1K, loss: 0.3294, time elapsed 0:8s.
+Train epoch 064 on IRSTD-1K, loss: 0.3221, time elapsed 0:8s.
+Train epoch 065 on IRSTD-1K, loss: 0.3112, time elapsed 0:8s.
+Train epoch 066 on IRSTD-1K, loss: 0.3433, time elapsed 0:8s.
+Train epoch 067 on IRSTD-1K, loss: 0.3135, time elapsed 0:8s.
+Train epoch 068 on IRSTD-1K, loss: 0.3236, time elapsed 0:8s.
+Train epoch 069 on IRSTD-1K, loss: 0.3326, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 70.9493339061737
+mIoU: 62.6882896015549  Best_mIoU: 65.55511965476659
+nIoU: 64.050212262631  Best_nIoU: 64.050212262631
+Pd: 89.56228956228956
+Fa: 10.457204552949406
+
+Train epoch 070 on IRSTD-1K, loss: 0.3400, time elapsed 0:8s.
+Train epoch 071 on IRSTD-1K, loss: 0.3211, time elapsed 0:8s.
+Train epoch 072 on IRSTD-1K, loss: 0.3367, time elapsed 0:8s.
+Train epoch 073 on IRSTD-1K, loss: 0.3306, time elapsed 0:8s.
+Train epoch 074 on IRSTD-1K, loss: 0.3372, time elapsed 0:8s.
+Train epoch 075 on IRSTD-1K, loss: 0.3353, time elapsed 0:8s.
+Train epoch 076 on IRSTD-1K, loss: 0.3365, time elapsed 0:8s.
+Train epoch 077 on IRSTD-1K, loss: 0.3230, time elapsed 0:8s.
+Train epoch 078 on IRSTD-1K, loss: 0.3311, time elapsed 0:8s.
+Train epoch 079 on IRSTD-1K, loss: 0.3356, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 77.25991606712341
+mIoU: 62.29353730185123  Best_mIoU: 65.55511965476659
+nIoU: 63.226924725112276  Best_nIoU: 64.050212262631
+Pd: 91.24579124579124
+Fa: 27.177344236406498
+
+Train epoch 080 on IRSTD-1K, loss: 0.3570, time elapsed 0:8s.
+Train epoch 081 on IRSTD-1K, loss: 0.3564, time elapsed 0:8s.
+Train epoch 082 on IRSTD-1K, loss: 0.3177, time elapsed 0:8s.
+Train epoch 083 on IRSTD-1K, loss: 0.3559, time elapsed 0:8s.
+Train epoch 084 on IRSTD-1K, loss: 0.3369, time elapsed 0:8s.
+Train epoch 085 on IRSTD-1K, loss: 0.3287, time elapsed 0:8s.
+Train epoch 086 on IRSTD-1K, loss: 0.3272, time elapsed 0:8s.
+Train epoch 087 on IRSTD-1K, loss: 0.3312, time elapsed 0:8s.
+Train epoch 088 on IRSTD-1K, loss: 0.3385, time elapsed 0:8s.
+Train epoch 089 on IRSTD-1K, loss: 0.3582, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 75.25262832641602
+mIoU: 63.29209065679926  Best_mIoU: 65.55511965476659
+nIoU: 63.53579105566393  Best_nIoU: 64.050212262631
+Pd: 91.91919191919192
+Fa: 22.3947390622925
+
+Train epoch 090 on IRSTD-1K, loss: 0.3270, time elapsed 0:8s.
+Train epoch 091 on IRSTD-1K, loss: 0.3064, time elapsed 0:8s.
+Train epoch 092 on IRSTD-1K, loss: 0.3245, time elapsed 0:8s.
+Train epoch 093 on IRSTD-1K, loss: 0.3251, time elapsed 0:8s.
+Train epoch 094 on IRSTD-1K, loss: 0.3166, time elapsed 0:8s.
+Train epoch 095 on IRSTD-1K, loss: 0.3124, time elapsed 0:8s.
+Train epoch 096 on IRSTD-1K, loss: 0.3080, time elapsed 0:8s.
+Train epoch 097 on IRSTD-1K, loss: 0.3502, time elapsed 0:8s.
+Train epoch 098 on IRSTD-1K, loss: 0.3610, time elapsed 0:8s.
+Train epoch 099 on IRSTD-1K, loss: 0.3359, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 78.3735454082489
+mIoU: 64.63884794194354  Best_mIoU: 65.55511965476659
+nIoU: 63.98826663145215  Best_nIoU: 64.050212262631
+Pd: 91.58249158249158
+Fa: 25.7349711318966
+
+Train epoch 100 on IRSTD-1K, loss: 0.3272, time elapsed 0:8s.
+Train epoch 101 on IRSTD-1K, loss: 0.3335, time elapsed 0:8s.
+Train epoch 102 on IRSTD-1K, loss: 0.3881, time elapsed 0:8s.
+Train epoch 103 on IRSTD-1K, loss: 0.3444, time elapsed 0:8s.
+Train epoch 104 on IRSTD-1K, loss: 0.3200, time elapsed 0:8s.
+Train epoch 105 on IRSTD-1K, loss: 0.3179, time elapsed 0:8s.
+Train epoch 106 on IRSTD-1K, loss: 0.3316, time elapsed 0:8s.
+Train epoch 107 on IRSTD-1K, loss: 0.3213, time elapsed 0:8s.
+Train epoch 108 on IRSTD-1K, loss: 0.3267, time elapsed 0:8s.
+Train epoch 109 on IRSTD-1K, loss: 0.3077, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 76.9643247127533
+mIoU: 62.05176522751206  Best_mIoU: 65.55511965476659
+nIoU: 63.02636165313592  Best_nIoU: 64.050212262631
+Pd: 91.24579124579124
+Fa: 20.62972998828627
+
+Train epoch 110 on IRSTD-1K, loss: 0.3209, time elapsed 0:8s.
+Train epoch 111 on IRSTD-1K, loss: 0.3102, time elapsed 0:8s.
+Train epoch 112 on IRSTD-1K, loss: 0.3293, time elapsed 0:8s.
+Train epoch 113 on IRSTD-1K, loss: 0.3485, time elapsed 0:8s.
+Train epoch 114 on IRSTD-1K, loss: 0.3133, time elapsed 0:8s.
+Train epoch 115 on IRSTD-1K, loss: 0.3109, time elapsed 0:8s.
+Train epoch 116 on IRSTD-1K, loss: 0.3304, time elapsed 0:8s.
+Train epoch 117 on IRSTD-1K, loss: 0.3196, time elapsed 0:8s.
+Train epoch 118 on IRSTD-1K, loss: 0.3218, time elapsed 0:8s.
+Train epoch 119 on IRSTD-1K, loss: 0.3179, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 75.4176139831543
+mIoU: 64.36869279511852  Best_mIoU: 65.55511965476659
+nIoU: 63.42481406055861  Best_nIoU: 64.050212262631
+Pd: 88.21548821548821
+Fa: 25.848843506537378
+
+Train epoch 120 on IRSTD-1K, loss: 0.3348, time elapsed 0:8s.
+Train epoch 121 on IRSTD-1K, loss: 0.3399, time elapsed 0:8s.
+Train epoch 122 on IRSTD-1K, loss: 0.3191, time elapsed 0:8s.
+Train epoch 123 on IRSTD-1K, loss: 0.3138, time elapsed 0:8s.
+Train epoch 124 on IRSTD-1K, loss: 0.3196, time elapsed 0:8s.
+Train epoch 125 on IRSTD-1K, loss: 0.3045, time elapsed 0:8s.
+Train epoch 126 on IRSTD-1K, loss: 0.3045, time elapsed 0:8s.
+Train epoch 127 on IRSTD-1K, loss: 0.3098, time elapsed 0:8s.
+Train epoch 128 on IRSTD-1K, loss: 0.3086, time elapsed 0:8s.
+Train epoch 129 on IRSTD-1K, loss: 0.3292, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 77.45239734649658
+mIoU: 61.85221783047869  Best_mIoU: 65.55511965476659
+nIoU: 62.51736931026788  Best_nIoU: 64.050212262631
+Pd: 90.23569023569024
+Fa: 36.11626380006783
+
+Train epoch 130 on IRSTD-1K, loss: 0.3346, time elapsed 0:8s.
+Train epoch 131 on IRSTD-1K, loss: 0.3184, time elapsed 0:8s.
+Train epoch 132 on IRSTD-1K, loss: 0.3166, time elapsed 0:8s.
+Train epoch 133 on IRSTD-1K, loss: 0.3128, time elapsed 0:8s.
+Train epoch 134 on IRSTD-1K, loss: 0.2958, time elapsed 0:8s.
+Train epoch 135 on IRSTD-1K, loss: 0.2951, time elapsed 0:8s.
+Train epoch 136 on IRSTD-1K, loss: 0.2935, time elapsed 0:8s.
+Train epoch 137 on IRSTD-1K, loss: 0.3123, time elapsed 0:8s.
+Train epoch 138 on IRSTD-1K, loss: 0.3150, time elapsed 0:8s.
+Train epoch 139 on IRSTD-1K, loss: 0.3229, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 70.97683548927307
+mIoU: 62.5075675021189  Best_mIoU: 65.55511965476659
+nIoU: 62.24778852017438  Best_nIoU: 64.050212262631
+Pd: 85.52188552188552
+Fa: 8.48343097459292
+
+Train epoch 140 on IRSTD-1K, loss: 0.2989, time elapsed 0:8s.
+Train epoch 141 on IRSTD-1K, loss: 0.3648, time elapsed 0:8s.
+Train epoch 142 on IRSTD-1K, loss: 0.3421, time elapsed 0:8s.
+Train epoch 143 on IRSTD-1K, loss: 0.3212, time elapsed 0:8s.
+Train epoch 144 on IRSTD-1K, loss: 0.3080, time elapsed 0:8s.
+Train epoch 145 on IRSTD-1K, loss: 0.3397, time elapsed 0:8s.
+Train epoch 146 on IRSTD-1K, loss: 0.3130, time elapsed 0:8s.
+Train epoch 147 on IRSTD-1K, loss: 0.3077, time elapsed 0:8s.
+Train epoch 148 on IRSTD-1K, loss: 0.3150, time elapsed 0:8s.
+Train epoch 149 on IRSTD-1K, loss: 0.3465, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 79.72778081893921
+mIoU: 49.91177862891079  Best_mIoU: 65.55511965476659
+nIoU: 62.45569997277284  Best_nIoU: 64.050212262631
+Pd: 90.23569023569024
+Fa: 135.16553735826164
+
+Train epoch 150 on IRSTD-1K, loss: 0.3231, time elapsed 0:8s.
+Train epoch 151 on IRSTD-1K, loss: 0.3073, time elapsed 0:8s.
+Train epoch 152 on IRSTD-1K, loss: 0.3179, time elapsed 0:8s.
+Train epoch 153 on IRSTD-1K, loss: 0.3158, time elapsed 0:8s.
+Train epoch 154 on IRSTD-1K, loss: 0.3143, time elapsed 0:8s.
+Train epoch 155 on IRSTD-1K, loss: 0.3282, time elapsed 0:8s.
+Train epoch 156 on IRSTD-1K, loss: 0.3083, time elapsed 0:8s.
+Train epoch 157 on IRSTD-1K, loss: 0.3016, time elapsed 0:8s.
+Train epoch 158 on IRSTD-1K, loss: 0.3127, time elapsed 0:8s.
+Train epoch 159 on IRSTD-1K, loss: 0.3399, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 77.5898814201355
+mIoU: 62.207892416225754  Best_mIoU: 65.55511965476659
+nIoU: 63.525017993900605  Best_nIoU: 64.050212262631
+Pd: 87.54208754208754
+Fa: 41.4872047258541
+
+Train epoch 160 on IRSTD-1K, loss: 0.3083, time elapsed 0:8s.
+Train epoch 161 on IRSTD-1K, loss: 0.3170, time elapsed 0:8s.
+Train epoch 162 on IRSTD-1K, loss: 0.3018, time elapsed 0:8s.
+Train epoch 163 on IRSTD-1K, loss: 0.3214, time elapsed 0:8s.
+Train epoch 164 on IRSTD-1K, loss: 0.3001, time elapsed 0:8s.
+Train epoch 165 on IRSTD-1K, loss: 0.3057, time elapsed 0:8s.
+Train epoch 166 on IRSTD-1K, loss: 0.2949, time elapsed 0:8s.
+Train epoch 167 on IRSTD-1K, loss: 0.3436, time elapsed 0:8s.
+Train epoch 168 on IRSTD-1K, loss: 0.3176, time elapsed 0:8s.
+Train epoch 169 on IRSTD-1K, loss: 0.3232, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 73.22471737861633
+mIoU: 62.71785209609044  Best_mIoU: 65.55511965476659
+nIoU: 63.101596582811815  Best_nIoU: 64.050212262631
+Pd: 88.88888888888889
+Fa: 14.746367014595307
+
+Train epoch 170 on IRSTD-1K, loss: 0.2966, time elapsed 0:8s.
+Train epoch 171 on IRSTD-1K, loss: 0.3066, time elapsed 0:8s.
+Train epoch 172 on IRSTD-1K, loss: 0.3263, time elapsed 0:8s.
+Train epoch 173 on IRSTD-1K, loss: 0.3174, time elapsed 0:8s.
+Train epoch 174 on IRSTD-1K, loss: 0.3198, time elapsed 0:8s.
+Train epoch 175 on IRSTD-1K, loss: 0.3041, time elapsed 0:8s.
+Train epoch 176 on IRSTD-1K, loss: 0.3016, time elapsed 0:8s.
+Train epoch 177 on IRSTD-1K, loss: 0.3258, time elapsed 0:8s.
+Train epoch 178 on IRSTD-1K, loss: 0.3155, time elapsed 0:8s.
+Train epoch 179 on IRSTD-1K, loss: 0.2984, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 75.5894660949707
+mIoU: 61.688639551192146  Best_mIoU: 65.55511965476659
+nIoU: 63.550671686035756  Best_nIoU: 64.050212262631
+Pd: 89.56228956228956
+Fa: 26.13352262414992
+
+Train epoch 180 on IRSTD-1K, loss: 0.3004, time elapsed 0:8s.
+Train epoch 181 on IRSTD-1K, loss: 0.3025, time elapsed 0:8s.
+Train epoch 182 on IRSTD-1K, loss: 0.3272, time elapsed 0:7s.
+Train epoch 183 on IRSTD-1K, loss: 0.3311, time elapsed 0:8s.
+Train epoch 184 on IRSTD-1K, loss: 0.3226, time elapsed 0:8s.
+Train epoch 185 on IRSTD-1K, loss: 0.3164, time elapsed 0:8s.
+Train epoch 186 on IRSTD-1K, loss: 0.3165, time elapsed 0:8s.
+Train epoch 187 on IRSTD-1K, loss: 0.3309, time elapsed 0:8s.
+Train epoch 188 on IRSTD-1K, loss: 0.3046, time elapsed 0:8s.
+Train epoch 189 on IRSTD-1K, loss: 0.3181, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 78.30480337142944
+mIoU: 62.37200897990473  Best_mIoU: 65.55511965476659
+nIoU: 63.530854455756256  Best_nIoU: 64.050212262631
+Pd: 91.91919191919192
+Fa: 25.336421458632685
+
+Train epoch 190 on IRSTD-1K, loss: 0.3187, time elapsed 0:8s.
+Train epoch 191 on IRSTD-1K, loss: 0.3033, time elapsed 0:8s.
+Train epoch 192 on IRSTD-1K, loss: 0.3194, time elapsed 0:8s.
+Train epoch 193 on IRSTD-1K, loss: 0.3133, time elapsed 0:8s.
+Train epoch 194 on IRSTD-1K, loss: 0.3092, time elapsed 0:8s.
+Train epoch 195 on IRSTD-1K, loss: 0.3106, time elapsed 0:8s.
+Train epoch 196 on IRSTD-1K, loss: 0.3130, time elapsed 0:8s.
+Train epoch 197 on IRSTD-1K, loss: 0.3116, time elapsed 0:8s.
+Train epoch 198 on IRSTD-1K, loss: 0.2996, time elapsed 0:8s.
+Train epoch 199 on IRSTD-1K, loss: 0.3021, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 73.02536368370056
+mIoU: 63.50430416068866  Best_mIoU: 65.55511965476659
+nIoU: 63.991523874170866  Best_nIoU: 64.050212262631
+Pd: 90.23569023569024
+Fa: 10.305376235919539
+
+Train epoch 200 on IRSTD-1K, loss: 0.2896, time elapsed 0:8s.
+Train epoch 201 on IRSTD-1K, loss: 0.2781, time elapsed 0:8s.
+Train epoch 202 on IRSTD-1K, loss: 0.3083, time elapsed 0:8s.
+Train epoch 203 on IRSTD-1K, loss: 0.2927, time elapsed 0:8s.
+Train epoch 204 on IRSTD-1K, loss: 0.2813, time elapsed 0:8s.
+Train epoch 205 on IRSTD-1K, loss: 0.2909, time elapsed 0:8s.
+Train epoch 206 on IRSTD-1K, loss: 0.2968, time elapsed 0:8s.
+Train epoch 207 on IRSTD-1K, loss: 0.2901, time elapsed 0:8s.
+Train epoch 208 on IRSTD-1K, loss: 0.2772, time elapsed 0:8s.
+Train epoch 209 on IRSTD-1K, loss: 0.2800, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 75.35574436187744
+mIoU: 63.6068237205524  Best_mIoU: 65.55511965476659
+nIoU: 64.76076657214011  Best_nIoU: 64.76076657214011
+Pd: 90.57239057239057
+Fa: 14.575559362128843
+
+Train epoch 210 on IRSTD-1K, loss: 0.3092, time elapsed 0:8s.
+Train epoch 211 on IRSTD-1K, loss: 0.3039, time elapsed 0:8s.
+Train epoch 212 on IRSTD-1K, loss: 0.2912, time elapsed 0:8s.
+Train epoch 213 on IRSTD-1K, loss: 0.2904, time elapsed 0:8s.
+Train epoch 214 on IRSTD-1K, loss: 0.2889, time elapsed 0:8s.
+Train epoch 215 on IRSTD-1K, loss: 0.2840, time elapsed 0:8s.
+Train epoch 216 on IRSTD-1K, loss: 0.2807, time elapsed 0:8s.
+Train epoch 217 on IRSTD-1K, loss: 0.2917, time elapsed 0:8s.
+Train epoch 218 on IRSTD-1K, loss: 0.2809, time elapsed 0:8s.
+Train epoch 219 on IRSTD-1K, loss: 0.2992, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.91579055786133
+mIoU: 63.441611363371756  Best_mIoU: 65.55511965476659
+nIoU: 65.14537106725123  Best_nIoU: 65.14537106725123
+Pd: 92.25589225589226
+Fa: 16.454439901281148
+
+Train epoch 220 on IRSTD-1K, loss: 0.2907, time elapsed 0:8s.
+Train epoch 221 on IRSTD-1K, loss: 0.2816, time elapsed 0:8s.
+Train epoch 222 on IRSTD-1K, loss: 0.2861, time elapsed 0:8s.
+Train epoch 223 on IRSTD-1K, loss: 0.2829, time elapsed 0:8s.
+Train epoch 224 on IRSTD-1K, loss: 0.3010, time elapsed 0:8s.
+Train epoch 225 on IRSTD-1K, loss: 0.2863, time elapsed 0:8s.
+Train epoch 226 on IRSTD-1K, loss: 0.3058, time elapsed 0:8s.
+Train epoch 227 on IRSTD-1K, loss: 0.2698, time elapsed 0:8s.
+Train epoch 228 on IRSTD-1K, loss: 0.2883, time elapsed 0:8s.
+Train epoch 229 on IRSTD-1K, loss: 0.2896, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 73.7196683883667
+mIoU: 63.894184938036226  Best_mIoU: 65.55511965476659
+nIoU: 64.25436082420694  Best_nIoU: 65.14537106725123
+Pd: 89.8989898989899
+Fa: 9.470318218518514
+
+Train epoch 230 on IRSTD-1K, loss: 0.2749, time elapsed 0:8s.
+Train epoch 231 on IRSTD-1K, loss: 0.2801, time elapsed 0:8s.
+Train epoch 232 on IRSTD-1K, loss: 0.2766, time elapsed 0:8s.
+Train epoch 233 on IRSTD-1K, loss: 0.2894, time elapsed 0:8s.
+Train epoch 234 on IRSTD-1K, loss: 0.2953, time elapsed 0:8s.
+Train epoch 235 on IRSTD-1K, loss: 0.2911, time elapsed 0:8s.
+Train epoch 236 on IRSTD-1K, loss: 0.2902, time elapsed 0:8s.
+Train epoch 237 on IRSTD-1K, loss: 0.2835, time elapsed 0:8s.
+Train epoch 238 on IRSTD-1K, loss: 0.2756, time elapsed 0:8s.
+Train epoch 239 on IRSTD-1K, loss: 0.2935, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.31772947311401
+mIoU: 63.86083052749719  Best_mIoU: 65.55511965476659
+nIoU: 64.47823446246444  Best_nIoU: 65.14537106725123
+Pd: 90.57239057239057
+Fa: 17.555197700858116
+
+Train epoch 240 on IRSTD-1K, loss: 0.2819, time elapsed 0:8s.
+Train epoch 241 on IRSTD-1K, loss: 0.2819, time elapsed 0:8s.
+Train epoch 242 on IRSTD-1K, loss: 0.2796, time elapsed 0:8s.
+Train epoch 243 on IRSTD-1K, loss: 0.2728, time elapsed 0:8s.
+Train epoch 244 on IRSTD-1K, loss: 0.2863, time elapsed 0:8s.
+Train epoch 245 on IRSTD-1K, loss: 0.2732, time elapsed 0:8s.
+Train epoch 246 on IRSTD-1K, loss: 0.2668, time elapsed 0:8s.
+Train epoch 247 on IRSTD-1K, loss: 0.2796, time elapsed 0:8s.
+Train epoch 248 on IRSTD-1K, loss: 0.2785, time elapsed 0:8s.
+Train epoch 249 on IRSTD-1K, loss: 0.2897, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 75.16326308250427
+mIoU: 63.6808386721025  Best_mIoU: 65.55511965476659
+nIoU: 64.73028591585054  Best_nIoU: 65.14537106725123
+Pd: 90.57239057239057
+Fa: 14.271901818574406
+
+Train epoch 250 on IRSTD-1K, loss: 0.2834, time elapsed 0:8s.
+Train epoch 251 on IRSTD-1K, loss: 0.2858, time elapsed 0:8s.
+Train epoch 252 on IRSTD-1K, loss: 0.2914, time elapsed 0:8s.
+Train epoch 253 on IRSTD-1K, loss: 0.2724, time elapsed 0:8s.
+Train epoch 254 on IRSTD-1K, loss: 0.2881, time elapsed 0:8s.
+Train epoch 255 on IRSTD-1K, loss: 0.2749, time elapsed 0:8s.
+Train epoch 256 on IRSTD-1K, loss: 0.2729, time elapsed 0:8s.
+Train epoch 257 on IRSTD-1K, loss: 0.2863, time elapsed 0:8s.
+Train epoch 258 on IRSTD-1K, loss: 0.2697, time elapsed 0:8s.
+Train epoch 259 on IRSTD-1K, loss: 0.2826, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 73.01161885261536
+mIoU: 63.87034698418426  Best_mIoU: 65.55511965476659
+nIoU: 64.41184651120268  Best_nIoU: 65.14537106725123
+Pd: 90.57239057239057
+Fa: 9.052789209818002
+
+Train epoch 260 on IRSTD-1K, loss: 0.2920, time elapsed 0:8s.
+Train epoch 261 on IRSTD-1K, loss: 0.2833, time elapsed 0:8s.
+Train epoch 262 on IRSTD-1K, loss: 0.2814, time elapsed 0:8s.
+Train epoch 263 on IRSTD-1K, loss: 0.2867, time elapsed 0:8s.
+Train epoch 264 on IRSTD-1K, loss: 0.2724, time elapsed 0:8s.
+Train epoch 265 on IRSTD-1K, loss: 0.2799, time elapsed 0:8s.
+Train epoch 266 on IRSTD-1K, loss: 0.2752, time elapsed 0:8s.
+Train epoch 267 on IRSTD-1K, loss: 0.2733, time elapsed 0:8s.
+Train epoch 268 on IRSTD-1K, loss: 0.2872, time elapsed 0:8s.
+Train epoch 269 on IRSTD-1K, loss: 0.2877, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.30397868156433
+mIoU: 63.80378962280857  Best_mIoU: 65.55511965476659
+nIoU: 64.80016702416567  Best_nIoU: 65.14537106725123
+Pd: 89.8989898989899
+Fa: 10.855755135708023
+
+Train epoch 270 on IRSTD-1K, loss: 0.2760, time elapsed 0:8s.
+Train epoch 271 on IRSTD-1K, loss: 0.2786, time elapsed 0:8s.
+Train epoch 272 on IRSTD-1K, loss: 0.2834, time elapsed 0:8s.
+Train epoch 273 on IRSTD-1K, loss: 0.2774, time elapsed 0:8s.
+Train epoch 274 on IRSTD-1K, loss: 0.2880, time elapsed 0:8s.
+Train epoch 275 on IRSTD-1K, loss: 0.2726, time elapsed 0:8s.
+Train epoch 276 on IRSTD-1K, loss: 0.2928, time elapsed 0:8s.
+Train epoch 277 on IRSTD-1K, loss: 0.2763, time elapsed 0:8s.
+Train epoch 278 on IRSTD-1K, loss: 0.2868, time elapsed 0:8s.
+Train epoch 279 on IRSTD-1K, loss: 0.2789, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.52395558357239
+mIoU: 63.98890331719986  Best_mIoU: 65.55511965476659
+nIoU: 65.28000989815062  Best_nIoU: 65.28000989815062
+Pd: 91.24579124579124
+Fa: 12.317106666159816
+
+Train epoch 280 on IRSTD-1K, loss: 0.3001, time elapsed 0:8s.
+Train epoch 281 on IRSTD-1K, loss: 0.2732, time elapsed 0:8s.
+Train epoch 282 on IRSTD-1K, loss: 0.2696, time elapsed 0:8s.
+Train epoch 283 on IRSTD-1K, loss: 0.2827, time elapsed 0:8s.
+Train epoch 284 on IRSTD-1K, loss: 0.2718, time elapsed 0:8s.
+Train epoch 285 on IRSTD-1K, loss: 0.2834, time elapsed 0:8s.
+Train epoch 286 on IRSTD-1K, loss: 0.2643, time elapsed 0:8s.
+Train epoch 287 on IRSTD-1K, loss: 0.2880, time elapsed 0:8s.
+Train epoch 288 on IRSTD-1K, loss: 0.2714, time elapsed 0:8s.
+Train epoch 289 on IRSTD-1K, loss: 0.2798, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 75.31449794769287
+mIoU: 63.969171483622354  Best_mIoU: 65.55511965476659
+nIoU: 65.0127707183332  Best_nIoU: 65.28000989815062
+Pd: 90.9090909090909
+Fa: 13.911308997194283
+
+Train epoch 290 on IRSTD-1K, loss: 0.2956, time elapsed 0:8s.
+Train epoch 291 on IRSTD-1K, loss: 0.2742, time elapsed 0:8s.
+Train epoch 292 on IRSTD-1K, loss: 0.2750, time elapsed 0:8s.
+Train epoch 293 on IRSTD-1K, loss: 0.2855, time elapsed 0:8s.
+Train epoch 294 on IRSTD-1K, loss: 0.2843, time elapsed 0:8s.
+Train epoch 295 on IRSTD-1K, loss: 0.2864, time elapsed 0:8s.
+Train epoch 296 on IRSTD-1K, loss: 0.2771, time elapsed 0:8s.
+Train epoch 297 on IRSTD-1K, loss: 0.2849, time elapsed 0:8s.
+Train epoch 298 on IRSTD-1K, loss: 0.2763, time elapsed 0:8s.
+Train epoch 299 on IRSTD-1K, loss: 0.2773, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.69581365585327
+mIoU: 63.30692146352832  Best_mIoU: 65.55511965476659
+nIoU: 64.20770706747047  Best_nIoU: 65.28000989815062
+Pd: 90.57239057239057
+Fa: 13.341950761969201
+
+Train epoch 300 on IRSTD-1K, loss: 0.2687, time elapsed 0:8s.
+Train epoch 301 on IRSTD-1K, loss: 0.2832, time elapsed 0:8s.
+Train epoch 302 on IRSTD-1K, loss: 0.2743, time elapsed 0:8s.
+Train epoch 303 on IRSTD-1K, loss: 0.2738, time elapsed 0:8s.
+Train epoch 304 on IRSTD-1K, loss: 0.2848, time elapsed 0:8s.
+Train epoch 305 on IRSTD-1K, loss: 0.2760, time elapsed 0:8s.
+Train epoch 306 on IRSTD-1K, loss: 0.2736, time elapsed 0:8s.
+Train epoch 307 on IRSTD-1K, loss: 0.2863, time elapsed 0:8s.
+Train epoch 308 on IRSTD-1K, loss: 0.2792, time elapsed 0:8s.
+Train epoch 309 on IRSTD-1K, loss: 0.2796, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.56520199775696
+mIoU: 63.39567504383401  Best_mIoU: 65.55511965476659
+nIoU: 64.07284304330435  Best_nIoU: 65.28000989815062
+Pd: 89.8989898989899
+Fa: 12.943400179210585
+
+Train epoch 310 on IRSTD-1K, loss: 0.2912, time elapsed 0:8s.
+Train epoch 311 on IRSTD-1K, loss: 0.2785, time elapsed 0:8s.
+Train epoch 312 on IRSTD-1K, loss: 0.2776, time elapsed 0:7s.
+Train epoch 313 on IRSTD-1K, loss: 0.2724, time elapsed 0:8s.
+Train epoch 314 on IRSTD-1K, loss: 0.2920, time elapsed 0:8s.
+Train epoch 315 on IRSTD-1K, loss: 0.2891, time elapsed 0:8s.
+Train epoch 316 on IRSTD-1K, loss: 0.2838, time elapsed 0:8s.
+Train epoch 317 on IRSTD-1K, loss: 0.2763, time elapsed 0:8s.
+Train epoch 318 on IRSTD-1K, loss: 0.2775, time elapsed 0:8s.
+Train epoch 319 on IRSTD-1K, loss: 0.2822, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 75.05327463150024
+mIoU: 63.73241492031989  Best_mIoU: 65.55511965476659
+nIoU: 64.45846654284573  Best_nIoU: 65.28000989815062
+Pd: 90.23569023569024
+Fa: 13.645608305523638
+
+Train epoch 320 on IRSTD-1K, loss: 0.2769, time elapsed 0:8s.
+Train epoch 321 on IRSTD-1K, loss: 0.2805, time elapsed 0:8s.
+Train epoch 322 on IRSTD-1K, loss: 0.2747, time elapsed 0:8s.
+Train epoch 323 on IRSTD-1K, loss: 0.2794, time elapsed 0:8s.
+Train epoch 324 on IRSTD-1K, loss: 0.2692, time elapsed 0:8s.
+Train epoch 325 on IRSTD-1K, loss: 0.2787, time elapsed 0:8s.
+Train epoch 326 on IRSTD-1K, loss: 0.2768, time elapsed 0:8s.
+Train epoch 327 on IRSTD-1K, loss: 0.2673, time elapsed 0:8s.
+Train epoch 328 on IRSTD-1K, loss: 0.2755, time elapsed 0:8s.
+Train epoch 329 on IRSTD-1K, loss: 0.2821, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:9s.
+pixAcc: 74.86079335212708
+mIoU: 63.66187302700806  Best_mIoU: 65.55511965476659
+nIoU: 64.61661933809908  Best_nIoU: 65.28000989815062
+Pd: 90.9090909090909
+Fa: 13.645608305523638
+
+Train epoch 330 on IRSTD-1K, loss: 0.2690, time elapsed 0:8s.
+Train epoch 331 on IRSTD-1K, loss: 0.2688, time elapsed 0:8s.
+Train epoch 332 on IRSTD-1K, loss: 0.2805, time elapsed 0:8s.
+Train epoch 333 on IRSTD-1K, loss: 0.2701, time elapsed 0:8s.
+Train epoch 334 on IRSTD-1K, loss: 0.2688, time elapsed 0:8s.
+Train epoch 335 on IRSTD-1K, loss: 0.2752, time elapsed 0:8s.
+Train epoch 336 on IRSTD-1K, loss: 0.2792, time elapsed 0:8s.
+Train epoch 337 on IRSTD-1K, loss: 0.2884, time elapsed 0:8s.
+Train epoch 338 on IRSTD-1K, loss: 0.2732, time elapsed 0:8s.
+Train epoch 339 on IRSTD-1K, loss: 0.2862, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.93641376495361
+mIoU: 63.92048786208514  Best_mIoU: 65.55511965476659
+nIoU: 64.81087490426933  Best_nIoU: 65.28000989815062
+Pd: 91.24579124579124
+Fa: 12.96237860515248
+
+Train epoch 340 on IRSTD-1K, loss: 0.2658, time elapsed 0:8s.
+Train epoch 341 on IRSTD-1K, loss: 0.2797, time elapsed 0:8s.
+Train epoch 342 on IRSTD-1K, loss: 0.2684, time elapsed 0:8s.
+Train epoch 343 on IRSTD-1K, loss: 0.2702, time elapsed 0:8s.
+Train epoch 344 on IRSTD-1K, loss: 0.2681, time elapsed 0:8s.
+Train epoch 345 on IRSTD-1K, loss: 0.2772, time elapsed 0:8s.
+Train epoch 346 on IRSTD-1K, loss: 0.2812, time elapsed 0:8s.
+Train epoch 347 on IRSTD-1K, loss: 0.2801, time elapsed 0:8s.
+Train epoch 348 on IRSTD-1K, loss: 0.2638, time elapsed 0:8s.
+Train epoch 349 on IRSTD-1K, loss: 0.2711, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.57207441329956
+mIoU: 64.00377603398431  Best_mIoU: 65.55511965476659
+nIoU: 64.70952991770609  Best_nIoU: 65.28000989815062
+Pd: 91.58249158249158
+Fa: 11.82366304419702
+
+Train epoch 350 on IRSTD-1K, loss: 0.2660, time elapsed 0:8s.
+Train epoch 351 on IRSTD-1K, loss: 0.2790, time elapsed 0:8s.
+Train epoch 352 on IRSTD-1K, loss: 0.2824, time elapsed 0:8s.
+Train epoch 353 on IRSTD-1K, loss: 0.2799, time elapsed 0:8s.
+Train epoch 354 on IRSTD-1K, loss: 0.2903, time elapsed 0:8s.
+Train epoch 355 on IRSTD-1K, loss: 0.2691, time elapsed 0:8s.
+Train epoch 356 on IRSTD-1K, loss: 0.2746, time elapsed 0:8s.
+Train epoch 357 on IRSTD-1K, loss: 0.2781, time elapsed 0:8s.
+Train epoch 358 on IRSTD-1K, loss: 0.2745, time elapsed 0:8s.
+Train epoch 359 on IRSTD-1K, loss: 0.2741, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.77830648422241
+mIoU: 63.88301620859761  Best_mIoU: 65.55511965476659
+nIoU: 64.5843343708102  Best_nIoU: 65.28000989815062
+Pd: 91.24579124579124
+Fa: 12.032427548547275
+
+Train epoch 360 on IRSTD-1K, loss: 0.2699, time elapsed 0:8s.
+Train epoch 361 on IRSTD-1K, loss: 0.2755, time elapsed 0:8s.
+Train epoch 362 on IRSTD-1K, loss: 0.2775, time elapsed 0:8s.
+Train epoch 363 on IRSTD-1K, loss: 0.2731, time elapsed 0:8s.
+Train epoch 364 on IRSTD-1K, loss: 0.2660, time elapsed 0:8s.
+Train epoch 365 on IRSTD-1K, loss: 0.2763, time elapsed 0:8s.
+Train epoch 366 on IRSTD-1K, loss: 0.2798, time elapsed 0:8s.
+Train epoch 367 on IRSTD-1K, loss: 0.2791, time elapsed 0:8s.
+Train epoch 368 on IRSTD-1K, loss: 0.2768, time elapsed 0:8s.
+Train epoch 369 on IRSTD-1K, loss: 0.2775, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.42771792411804
+mIoU: 64.1220017767249  Best_mIoU: 65.55511965476659
+nIoU: 64.62434764753313  Best_nIoU: 65.28000989815062
+Pd: 90.9090909090909
+Fa: 11.292262570350431
+
+Train epoch 370 on IRSTD-1K, loss: 0.2692, time elapsed 0:8s.
+Train epoch 371 on IRSTD-1K, loss: 0.2859, time elapsed 0:8s.
+Train epoch 372 on IRSTD-1K, loss: 0.2779, time elapsed 0:8s.
+Train epoch 373 on IRSTD-1K, loss: 0.2730, time elapsed 0:8s.
+Train epoch 374 on IRSTD-1K, loss: 0.2784, time elapsed 0:8s.
+Train epoch 375 on IRSTD-1K, loss: 0.2841, time elapsed 0:8s.
+Train epoch 376 on IRSTD-1K, loss: 0.2753, time elapsed 0:8s.
+Train epoch 377 on IRSTD-1K, loss: 0.2914, time elapsed 0:8s.
+Train epoch 378 on IRSTD-1K, loss: 0.2651, time elapsed 0:8s.
+Train epoch 379 on IRSTD-1K, loss: 0.2727, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.3452250957489
+mIoU: 64.00923295454545  Best_mIoU: 65.55511965476659
+nIoU: 64.58607287704758  Best_nIoU: 65.28000989815062
+Pd: 91.24579124579124
+Fa: 11.842642379633617
+
+Train epoch 380 on IRSTD-1K, loss: 0.2648, time elapsed 0:8s.
+Train epoch 381 on IRSTD-1K, loss: 0.2751, time elapsed 0:8s.
+Train epoch 382 on IRSTD-1K, loss: 0.2771, time elapsed 0:8s.
+Train epoch 383 on IRSTD-1K, loss: 0.2609, time elapsed 0:8s.
+Train epoch 384 on IRSTD-1K, loss: 0.2717, time elapsed 0:8s.
+Train epoch 385 on IRSTD-1K, loss: 0.2761, time elapsed 0:8s.
+Train epoch 386 on IRSTD-1K, loss: 0.2847, time elapsed 0:8s.
+Train epoch 387 on IRSTD-1K, loss: 0.2802, time elapsed 0:8s.
+Train epoch 388 on IRSTD-1K, loss: 0.2777, time elapsed 0:8s.
+Train epoch 389 on IRSTD-1K, loss: 0.2721, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 74.42771792411804
+mIoU: 63.91004072959093  Best_mIoU: 65.55511965476659
+nIoU: 64.41753136344761  Best_nIoU: 65.28000989815062
+Pd: 90.23569023569024
+Fa: 11.804684618255123
+
+Train epoch 390 on IRSTD-1K, loss: 0.2778, time elapsed 0:8s.
+Train epoch 391 on IRSTD-1K, loss: 0.2703, time elapsed 0:8s.
+Train epoch 392 on IRSTD-1K, loss: 0.2626, time elapsed 0:8s.
+Train epoch 393 on IRSTD-1K, loss: 0.2657, time elapsed 0:8s.
+Train epoch 394 on IRSTD-1K, loss: 0.2724, time elapsed 0:8s.
+Train epoch 395 on IRSTD-1K, loss: 0.2839, time elapsed 0:8s.
+Train epoch 396 on IRSTD-1K, loss: 0.2768, time elapsed 0:8s.
+Train epoch 397 on IRSTD-1K, loss: 0.2655, time elapsed 0:8s.
+Train epoch 398 on IRSTD-1K, loss: 0.2971, time elapsed 0:8s.
+Train epoch 399 on IRSTD-1K, loss: 0.2859, time elapsed 0:8s.
+-----------------------
+Eval on IRSTD-1K, time elapsed 0:13s.
+pixAcc: 73.33470582962036
+mIoU: 63.54917495681182  Best_mIoU: 65.55511965476659
+nIoU: 64.02301044878688  Best_nIoU: 65.28000989815062
+Pd: 89.56228956228956
+Fa: 10.836776709766127
+
+
+========== Inference ===========
+=========================
+Inference on IRSTD-1K with mIoU, time elapsed 0:14s.
+pixAcc: 80.40832877159119
+mIoU: 65.55511965476659
+nIoU: 63.55788621633663
+Pd: 92.92929292929293
+Fa: 29.132139388821088
+
+=========================
+Inference on IRSTD-1K with nIoU, time elapsed 0:14s.
+pixAcc: 74.52395558357239
+mIoU: 63.98890331719986
+nIoU: 65.28000989815062
+Pd: 91.24579124579124
+Fa: 12.317106666159816
+
+///////////////////////////////////////////////////////
+Namespace(batchSize=16, dataset_dir='/home/pc/work/BasicIRSTD-main/data', epochs=400, img_norm_cfg=None, img_norm_cfg_mean=None, img_norm_cfg_std=None, mode='train', model='BasicUNet_plus', name='basicunet_test_results', num_workers=8, optimizer_name='Adam', optimizer_settings={'lr': 0.0005}, patchSize=256, pretrained=None, resume=None, scheduler_name='MultiStepLR', scheduler_settings={'epochs': 400, 'step': [200, 300], 'gamma': 0.1}, seed=42, test_freq=10, testset=['NUAA-SIRST'], threshold=0.5, trainset='NUAA-SIRST')
+213 samples from NUAA-SIRST for train
+214 samples from NUAA-SIRST for val
+
+========== Training ===========
+Train epoch 000 on NUAA-SIRST, loss: 0.9896, time elapsed 0:3s.
+Train epoch 001 on NUAA-SIRST, loss: 0.8411, time elapsed 0:2s.
+Train epoch 002 on NUAA-SIRST, loss: 0.6413, time elapsed 0:2s.
+Train epoch 003 on NUAA-SIRST, loss: 0.5375, time elapsed 0:2s.
+Train epoch 004 on NUAA-SIRST, loss: 0.4527, time elapsed 0:2s.
+Train epoch 005 on NUAA-SIRST, loss: 0.4654, time elapsed 0:2s.
+Train epoch 006 on NUAA-SIRST, loss: 0.4717, time elapsed 0:2s.
+Train epoch 007 on NUAA-SIRST, loss: 0.4610, time elapsed 0:2s.
+Train epoch 008 on NUAA-SIRST, loss: 0.4211, time elapsed 0:2s.
+Train epoch 009 on NUAA-SIRST, loss: 0.3894, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:17s.
+pixAcc: 73.51853847503662
+mIoU: 61.061596355714  Best_mIoU: 61.061596355714
+nIoU: 63.55614643356429  Best_nIoU: 63.55614643356429
+Pd: 89.73384030418251
+Fa: 86.71147952554747
+
+Train epoch 010 on NUAA-SIRST, loss: 0.3557, time elapsed 0:2s.
+Train epoch 011 on NUAA-SIRST, loss: 0.3888, time elapsed 0:2s.
+Train epoch 012 on NUAA-SIRST, loss: 0.3117, time elapsed 0:2s.
+Train epoch 013 on NUAA-SIRST, loss: 0.3365, time elapsed 0:2s.
+Train epoch 014 on NUAA-SIRST, loss: 0.3526, time elapsed 0:2s.
+Train epoch 015 on NUAA-SIRST, loss: 0.3420, time elapsed 0:2s.
+Train epoch 016 on NUAA-SIRST, loss: 0.3060, time elapsed 0:2s.
+Train epoch 017 on NUAA-SIRST, loss: 0.3091, time elapsed 0:2s.
+Train epoch 018 on NUAA-SIRST, loss: 0.2768, time elapsed 0:2s.
+Train epoch 019 on NUAA-SIRST, loss: 0.3898, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 79.12245392799377
+mIoU: 56.58736249680225  Best_mIoU: 61.061596355714
+nIoU: 56.16663105659971  Best_nIoU: 63.55614643356429
+Pd: 85.93155893536122
+Fa: 54.88068563863635
+
+Train epoch 020 on NUAA-SIRST, loss: 0.3966, time elapsed 0:2s.
+Train epoch 021 on NUAA-SIRST, loss: 0.3156, time elapsed 0:2s.
+Train epoch 022 on NUAA-SIRST, loss: 0.3081, time elapsed 0:2s.
+Train epoch 023 on NUAA-SIRST, loss: 0.3511, time elapsed 0:2s.
+Train epoch 024 on NUAA-SIRST, loss: 0.3373, time elapsed 0:2s.
+Train epoch 025 on NUAA-SIRST, loss: 0.3048, time elapsed 0:2s.
+Train epoch 026 on NUAA-SIRST, loss: 0.3050, time elapsed 0:2s.
+Train epoch 027 on NUAA-SIRST, loss: 0.2510, time elapsed 0:2s.
+Train epoch 028 on NUAA-SIRST, loss: 0.2695, time elapsed 0:2s.
+Train epoch 029 on NUAA-SIRST, loss: 0.2648, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 79.1939914226532
+mIoU: 69.85696255784603  Best_mIoU: 69.85696255784603
+nIoU: 71.45378868459936  Best_nIoU: 71.45378868459936
+Pd: 88.97338403041825
+Fa: 30.73318293900229
+
+Train epoch 030 on NUAA-SIRST, loss: 0.2622, time elapsed 0:2s.
+Train epoch 031 on NUAA-SIRST, loss: 0.2639, time elapsed 0:2s.
+Train epoch 032 on NUAA-SIRST, loss: 0.2773, time elapsed 0:2s.
+Train epoch 033 on NUAA-SIRST, loss: 0.2585, time elapsed 0:2s.
+Train epoch 034 on NUAA-SIRST, loss: 0.2445, time elapsed 0:2s.
+Train epoch 035 on NUAA-SIRST, loss: 0.2743, time elapsed 0:2s.
+Train epoch 036 on NUAA-SIRST, loss: 0.2503, time elapsed 0:2s.
+Train epoch 037 on NUAA-SIRST, loss: 0.2499, time elapsed 0:2s.
+Train epoch 038 on NUAA-SIRST, loss: 0.2705, time elapsed 0:2s.
+Train epoch 039 on NUAA-SIRST, loss: 0.2236, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 77.20281481742859
+mIoU: 65.05576208178438  Best_mIoU: 69.85696255784603
+nIoU: 72.34053564569327  Best_nIoU: 72.34053564569327
+Pd: 90.49429657794677
+Fa: 52.273851906647906
+
+Train epoch 040 on NUAA-SIRST, loss: 0.2289, time elapsed 0:2s.
+Train epoch 041 on NUAA-SIRST, loss: 0.2311, time elapsed 0:2s.
+Train epoch 042 on NUAA-SIRST, loss: 0.2471, time elapsed 0:2s.
+Train epoch 043 on NUAA-SIRST, loss: 0.2208, time elapsed 0:2s.
+Train epoch 044 on NUAA-SIRST, loss: 0.2392, time elapsed 0:2s.
+Train epoch 045 on NUAA-SIRST, loss: 0.2128, time elapsed 0:2s.
+Train epoch 046 on NUAA-SIRST, loss: 0.2186, time elapsed 0:2s.
+Train epoch 047 on NUAA-SIRST, loss: 0.2615, time elapsed 0:2s.
+Train epoch 048 on NUAA-SIRST, loss: 0.2235, time elapsed 0:2s.
+Train epoch 049 on NUAA-SIRST, loss: 0.2694, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 84.8694384098053
+mIoU: 70.53810326033098  Best_mIoU: 70.53810326033098
+nIoU: 71.4502902875349  Best_nIoU: 72.34053564569327
+Pd: 92.39543726235742
+Fa: 26.548530513537116
+
+Train epoch 050 on NUAA-SIRST, loss: 0.3639, time elapsed 0:2s.
+Train epoch 051 on NUAA-SIRST, loss: 0.2915, time elapsed 0:2s.
+Train epoch 052 on NUAA-SIRST, loss: 0.2499, time elapsed 0:2s.
+Train epoch 053 on NUAA-SIRST, loss: 0.2509, time elapsed 0:2s.
+Train epoch 054 on NUAA-SIRST, loss: 0.2219, time elapsed 0:2s.
+Train epoch 055 on NUAA-SIRST, loss: 0.2540, time elapsed 0:2s.
+Train epoch 056 on NUAA-SIRST, loss: 0.2572, time elapsed 0:2s.
+Train epoch 057 on NUAA-SIRST, loss: 0.2300, time elapsed 0:2s.
+Train epoch 058 on NUAA-SIRST, loss: 0.2340, time elapsed 0:2s.
+Train epoch 059 on NUAA-SIRST, loss: 0.2278, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 86.15714907646179
+mIoU: 69.02942300343905  Best_mIoU: 70.53810326033098
+nIoU: 74.45697638832108  Best_nIoU: 74.45697638832108
+Pd: 94.67680608365019
+Fa: 87.39748591324314
+
+Train epoch 060 on NUAA-SIRST, loss: 0.2206, time elapsed 0:2s.
+Train epoch 061 on NUAA-SIRST, loss: 0.2194, time elapsed 0:2s.
+Train epoch 062 on NUAA-SIRST, loss: 0.2226, time elapsed 0:2s.
+Train epoch 063 on NUAA-SIRST, loss: 0.2015, time elapsed 0:2s.
+Train epoch 064 on NUAA-SIRST, loss: 0.2002, time elapsed 0:2s.
+Train epoch 065 on NUAA-SIRST, loss: 0.2159, time elapsed 0:2s.
+Train epoch 066 on NUAA-SIRST, loss: 0.2040, time elapsed 0:2s.
+Train epoch 067 on NUAA-SIRST, loss: 0.2042, time elapsed 0:2s.
+Train epoch 068 on NUAA-SIRST, loss: 0.2531, time elapsed 0:2s.
+Train epoch 069 on NUAA-SIRST, loss: 0.2883, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 69.33349370956421
+mIoU: 63.99955976227163  Best_mIoU: 70.53810326033098
+nIoU: 69.70231549119964  Best_nIoU: 74.45697638832108
+Pd: 85.55133079847909
+Fa: 19.27684024849441
+
+Train epoch 070 on NUAA-SIRST, loss: 0.2656, time elapsed 0:2s.
+Train epoch 071 on NUAA-SIRST, loss: 0.2479, time elapsed 0:2s.
+Train epoch 072 on NUAA-SIRST, loss: 0.2257, time elapsed 0:2s.
+Train epoch 073 on NUAA-SIRST, loss: 0.2201, time elapsed 0:2s.
+Train epoch 074 on NUAA-SIRST, loss: 0.1937, time elapsed 0:2s.
+Train epoch 075 on NUAA-SIRST, loss: 0.2255, time elapsed 0:2s.
+Train epoch 076 on NUAA-SIRST, loss: 0.2013, time elapsed 0:2s.
+Train epoch 077 on NUAA-SIRST, loss: 0.2166, time elapsed 0:2s.
+Train epoch 078 on NUAA-SIRST, loss: 0.1939, time elapsed 0:2s.
+Train epoch 079 on NUAA-SIRST, loss: 0.2063, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 85.96637845039368
+mIoU: 67.49040531685856  Best_mIoU: 70.53810326033098
+nIoU: 74.33189126176094  Best_nIoU: 74.45697638832108
+Pd: 96.57794676806084
+Fa: 103.45008922740817
+
+Train epoch 080 on NUAA-SIRST, loss: 0.2143, time elapsed 0:2s.
+Train epoch 081 on NUAA-SIRST, loss: 0.2157, time elapsed 0:2s.
+Train epoch 082 on NUAA-SIRST, loss: 0.1955, time elapsed 0:2s.
+Train epoch 083 on NUAA-SIRST, loss: 0.1903, time elapsed 0:2s.
+Train epoch 084 on NUAA-SIRST, loss: 0.2095, time elapsed 0:2s.
+Train epoch 085 on NUAA-SIRST, loss: 0.1807, time elapsed 0:2s.
+Train epoch 086 on NUAA-SIRST, loss: 0.1972, time elapsed 0:2s.
+Train epoch 087 on NUAA-SIRST, loss: 0.1720, time elapsed 0:2s.
+Train epoch 088 on NUAA-SIRST, loss: 0.1713, time elapsed 0:2s.
+Train epoch 089 on NUAA-SIRST, loss: 0.1958, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 88.85179162025452
+mIoU: 74.82678983833718  Best_mIoU: 74.82678983833718
+nIoU: 77.19263641804712  Best_nIoU: 77.19263641804712
+Pd: 95.81749049429658
+Fa: 52.06804780755192
+
+Train epoch 090 on NUAA-SIRST, loss: 0.1957, time elapsed 0:2s.
+Train epoch 091 on NUAA-SIRST, loss: 0.1745, time elapsed 0:2s.
+Train epoch 092 on NUAA-SIRST, loss: 0.1989, time elapsed 0:2s.
+Train epoch 093 on NUAA-SIRST, loss: 0.1753, time elapsed 0:2s.
+Train epoch 094 on NUAA-SIRST, loss: 0.1812, time elapsed 0:2s.
+Train epoch 095 on NUAA-SIRST, loss: 0.1810, time elapsed 0:2s.
+Train epoch 096 on NUAA-SIRST, loss: 0.1960, time elapsed 0:2s.
+Train epoch 097 on NUAA-SIRST, loss: 0.1783, time elapsed 0:2s.
+Train epoch 098 on NUAA-SIRST, loss: 0.1757, time elapsed 0:2s.
+Train epoch 099 on NUAA-SIRST, loss: 0.1858, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 82.85441994667053
+mIoU: 74.6241408934708  Best_mIoU: 74.82678983833718
+nIoU: 77.71916352104395  Best_nIoU: 77.71916352104395
+Pd: 94.29657794676805
+Fa: 30.2529770124238
+
+Train epoch 100 on NUAA-SIRST, loss: 0.1948, time elapsed 0:2s.
+Train epoch 101 on NUAA-SIRST, loss: 0.2149, time elapsed 0:2s.
+Train epoch 102 on NUAA-SIRST, loss: 0.1996, time elapsed 0:2s.
+Train epoch 103 on NUAA-SIRST, loss: 0.1926, time elapsed 0:2s.
+Train epoch 104 on NUAA-SIRST, loss: 0.1986, time elapsed 0:2s.
+Train epoch 105 on NUAA-SIRST, loss: 0.1872, time elapsed 0:2s.
+Train epoch 106 on NUAA-SIRST, loss: 0.1864, time elapsed 0:2s.
+Train epoch 107 on NUAA-SIRST, loss: 0.2070, time elapsed 0:2s.
+Train epoch 108 on NUAA-SIRST, loss: 0.2058, time elapsed 0:2s.
+Train epoch 109 on NUAA-SIRST, loss: 0.2077, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 82.0436418056488
+mIoU: 75.40821917808219  Best_mIoU: 75.40821917808219
+nIoU: 77.33484546452664  Best_nIoU: 77.71916352104395
+Pd: 92.39543726235742
+Fa: 16.87581061560195
+
+Train epoch 110 on NUAA-SIRST, loss: 0.1808, time elapsed 0:2s.
+Train epoch 111 on NUAA-SIRST, loss: 0.2082, time elapsed 0:2s.
+Train epoch 112 on NUAA-SIRST, loss: 0.1832, time elapsed 0:2s.
+Train epoch 113 on NUAA-SIRST, loss: 0.1854, time elapsed 0:2s.
+Train epoch 114 on NUAA-SIRST, loss: 0.1752, time elapsed 0:2s.
+Train epoch 115 on NUAA-SIRST, loss: 0.1696, time elapsed 0:2s.
+Train epoch 116 on NUAA-SIRST, loss: 0.1814, time elapsed 0:2s.
+Train epoch 117 on NUAA-SIRST, loss: 0.1830, time elapsed 0:2s.
+Train epoch 118 on NUAA-SIRST, loss: 0.1782, time elapsed 0:2s.
+Train epoch 119 on NUAA-SIRST, loss: 0.1705, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 91.24836325645447
+mIoU: 71.50999813119043  Best_mIoU: 75.40821917808219
+nIoU: 74.21247948354916  Best_nIoU: 77.71916352104395
+Pd: 96.95817490494296
+Fa: 73.05991312023252
+
+Train epoch 120 on NUAA-SIRST, loss: 0.1718, time elapsed 0:2s.
+Train epoch 121 on NUAA-SIRST, loss: 0.1866, time elapsed 0:2s.
+Train epoch 122 on NUAA-SIRST, loss: 0.1895, time elapsed 0:2s.
+Train epoch 123 on NUAA-SIRST, loss: 0.2101, time elapsed 0:2s.
+Train epoch 124 on NUAA-SIRST, loss: 0.1701, time elapsed 0:2s.
+Train epoch 125 on NUAA-SIRST, loss: 0.1729, time elapsed 0:2s.
+Train epoch 126 on NUAA-SIRST, loss: 0.1729, time elapsed 0:2s.
+Train epoch 127 on NUAA-SIRST, loss: 0.1858, time elapsed 0:2s.
+Train epoch 128 on NUAA-SIRST, loss: 0.1490, time elapsed 0:2s.
+Train epoch 129 on NUAA-SIRST, loss: 0.1797, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 84.53559279441833
+mIoU: 76.1546723952739  Best_mIoU: 76.1546723952739
+nIoU: 78.48957034170381  Best_nIoU: 78.48957034170381
+Pd: 94.67680608365019
+Fa: 19.48264252860099
+
+Train epoch 130 on NUAA-SIRST, loss: 0.1667, time elapsed 0:2s.
+Train epoch 131 on NUAA-SIRST, loss: 0.1645, time elapsed 0:2s.
+Train epoch 132 on NUAA-SIRST, loss: 0.1817, time elapsed 0:2s.
+Train epoch 133 on NUAA-SIRST, loss: 0.1611, time elapsed 0:2s.
+Train epoch 134 on NUAA-SIRST, loss: 0.1726, time elapsed 0:2s.
+Train epoch 135 on NUAA-SIRST, loss: 0.1627, time elapsed 0:2s.
+Train epoch 136 on NUAA-SIRST, loss: 0.1574, time elapsed 0:2s.
+Train epoch 137 on NUAA-SIRST, loss: 0.1815, time elapsed 0:2s.
+Train epoch 138 on NUAA-SIRST, loss: 0.1739, time elapsed 0:2s.
+Train epoch 139 on NUAA-SIRST, loss: 0.1692, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 86.51484251022339
+mIoU: 76.71001162913628  Best_mIoU: 76.71001162913628
+nIoU: 79.07273715874891  Best_nIoU: 79.07273715874891
+Pd: 96.57794676806084
+Fa: 29.97857336595189
+
+Train epoch 140 on NUAA-SIRST, loss: 0.1630, time elapsed 0:2s.
+Train epoch 141 on NUAA-SIRST, loss: 0.1624, time elapsed 0:2s.
+Train epoch 142 on NUAA-SIRST, loss: 0.1655, time elapsed 0:2s.
+Train epoch 143 on NUAA-SIRST, loss: 0.1752, time elapsed 0:2s.
+Train epoch 144 on NUAA-SIRST, loss: 0.1844, time elapsed 0:2s.
+Train epoch 145 on NUAA-SIRST, loss: 0.1634, time elapsed 0:2s.
+Train epoch 146 on NUAA-SIRST, loss: 0.1861, time elapsed 0:2s.
+Train epoch 147 on NUAA-SIRST, loss: 0.1855, time elapsed 0:2s.
+Train epoch 148 on NUAA-SIRST, loss: 0.1961, time elapsed 0:2s.
+Train epoch 149 on NUAA-SIRST, loss: 0.2245, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 81.32824897766113
+mIoU: 75.09633381041506  Best_mIoU: 76.71001162913628
+nIoU: 77.43433632541567  Best_nIoU: 79.07273715874891
+Pd: 95.43726235741445
+Fa: 14.063175513001624
+
+Train epoch 150 on NUAA-SIRST, loss: 0.2325, time elapsed 0:2s.
+Train epoch 151 on NUAA-SIRST, loss: 0.2123, time elapsed 0:2s.
+Train epoch 152 on NUAA-SIRST, loss: 0.2069, time elapsed 0:2s.
+Train epoch 153 on NUAA-SIRST, loss: 0.1948, time elapsed 0:2s.
+Train epoch 154 on NUAA-SIRST, loss: 0.1802, time elapsed 0:2s.
+Train epoch 155 on NUAA-SIRST, loss: 0.1657, time elapsed 0:2s.
+Train epoch 156 on NUAA-SIRST, loss: 0.1702, time elapsed 0:2s.
+Train epoch 157 on NUAA-SIRST, loss: 0.1767, time elapsed 0:2s.
+Train epoch 158 on NUAA-SIRST, loss: 0.1970, time elapsed 0:2s.
+Train epoch 159 on NUAA-SIRST, loss: 0.1791, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 85.52521467208862
+mIoU: 76.65099380209448  Best_mIoU: 76.71001162913628
+nIoU: 79.31592005562564  Best_nIoU: 79.31592005562564
+Pd: 95.43726235741445
+Fa: 22.70688310090918
+
+Train epoch 160 on NUAA-SIRST, loss: 0.1714, time elapsed 0:2s.
+Train epoch 161 on NUAA-SIRST, loss: 0.2140, time elapsed 0:2s.
+Train epoch 162 on NUAA-SIRST, loss: 0.2750, time elapsed 0:2s.
+Train epoch 163 on NUAA-SIRST, loss: 0.2345, time elapsed 0:2s.
+Train epoch 164 on NUAA-SIRST, loss: 0.2138, time elapsed 0:2s.
+Train epoch 165 on NUAA-SIRST, loss: 0.2620, time elapsed 0:2s.
+Train epoch 166 on NUAA-SIRST, loss: 0.2370, time elapsed 0:2s.
+Train epoch 167 on NUAA-SIRST, loss: 0.2158, time elapsed 0:2s.
+Train epoch 168 on NUAA-SIRST, loss: 0.1882, time elapsed 0:2s.
+Train epoch 169 on NUAA-SIRST, loss: 0.1804, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 85.57291030883789
+mIoU: 75.01045150501672  Best_mIoU: 76.71001162913628
+nIoU: 76.88869833608958  Best_nIoU: 79.31592005562564
+Pd: 93.91634980988593
+Fa: 22.089474441600032
+
+Train epoch 170 on NUAA-SIRST, loss: 0.1958, time elapsed 0:2s.
+Train epoch 171 on NUAA-SIRST, loss: 0.1751, time elapsed 0:2s.
+Train epoch 172 on NUAA-SIRST, loss: 0.1817, time elapsed 0:2s.
+Train epoch 173 on NUAA-SIRST, loss: 0.1753, time elapsed 0:2s.
+Train epoch 174 on NUAA-SIRST, loss: 0.1610, time elapsed 0:2s.
+Train epoch 175 on NUAA-SIRST, loss: 0.1711, time elapsed 0:2s.
+Train epoch 176 on NUAA-SIRST, loss: 0.1645, time elapsed 0:2s.
+Train epoch 177 on NUAA-SIRST, loss: 0.1743, time elapsed 0:2s.
+Train epoch 178 on NUAA-SIRST, loss: 0.1761, time elapsed 0:2s.
+Train epoch 179 on NUAA-SIRST, loss: 0.1793, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 84.82174873352051
+mIoU: 76.34685554840095  Best_mIoU: 76.71001162913628
+nIoU: 77.59647101889475  Best_nIoU: 79.31592005562564
+Pd: 93.5361216730038
+Fa: 16.53280560276471
+
+Train epoch 180 on NUAA-SIRST, loss: 0.1851, time elapsed 0:2s.
+Train epoch 181 on NUAA-SIRST, loss: 0.2132, time elapsed 0:2s.
+Train epoch 182 on NUAA-SIRST, loss: 0.1961, time elapsed 0:2s.
+Train epoch 183 on NUAA-SIRST, loss: 0.1924, time elapsed 0:2s.
+Train epoch 184 on NUAA-SIRST, loss: 0.1781, time elapsed 0:2s.
+Train epoch 185 on NUAA-SIRST, loss: 0.1630, time elapsed 0:2s.
+Train epoch 186 on NUAA-SIRST, loss: 0.1722, time elapsed 0:2s.
+Train epoch 187 on NUAA-SIRST, loss: 0.1682, time elapsed 0:2s.
+Train epoch 188 on NUAA-SIRST, loss: 0.1573, time elapsed 0:2s.
+Train epoch 189 on NUAA-SIRST, loss: 0.1737, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 86.65792346000671
+mIoU: 76.48111122803326  Best_mIoU: 76.71001162913628
+nIoU: 78.5632300585917  Best_nIoU: 79.31592005562564
+Pd: 95.81749049429658
+Fa: 31.48779069306329
+
+Train epoch 190 on NUAA-SIRST, loss: 0.1672, time elapsed 0:2s.
+Train epoch 191 on NUAA-SIRST, loss: 0.1684, time elapsed 0:2s.
+Train epoch 192 on NUAA-SIRST, loss: 0.1717, time elapsed 0:2s.
+Train epoch 193 on NUAA-SIRST, loss: 0.1639, time elapsed 0:2s.
+Train epoch 194 on NUAA-SIRST, loss: 0.1678, time elapsed 0:2s.
+Train epoch 195 on NUAA-SIRST, loss: 0.1501, time elapsed 0:2s.
+Train epoch 196 on NUAA-SIRST, loss: 0.1744, time elapsed 0:2s.
+Train epoch 197 on NUAA-SIRST, loss: 0.1722, time elapsed 0:2s.
+Train epoch 198 on NUAA-SIRST, loss: 0.1676, time elapsed 0:2s.
+Train epoch 199 on NUAA-SIRST, loss: 0.1678, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 85.68021655082703
+mIoU: 77.31870023671186  Best_mIoU: 77.31870023671186
+nIoU: 79.49934603212415  Best_nIoU: 79.49934603212415
+Pd: 93.91634980988593
+Fa: 18.316428395337425
+
+Train epoch 200 on NUAA-SIRST, loss: 0.1449, time elapsed 0:2s.
+Train epoch 201 on NUAA-SIRST, loss: 0.1435, time elapsed 0:2s.
+Train epoch 202 on NUAA-SIRST, loss: 0.1570, time elapsed 0:2s.
+Train epoch 203 on NUAA-SIRST, loss: 0.1474, time elapsed 0:2s.
+Train epoch 204 on NUAA-SIRST, loss: 0.1489, time elapsed 0:2s.
+Train epoch 205 on NUAA-SIRST, loss: 0.1447, time elapsed 0:2s.
+Train epoch 206 on NUAA-SIRST, loss: 0.1485, time elapsed 0:2s.
+Train epoch 207 on NUAA-SIRST, loss: 0.1426, time elapsed 0:2s.
+Train epoch 208 on NUAA-SIRST, loss: 0.1449, time elapsed 0:2s.
+Train epoch 209 on NUAA-SIRST, loss: 0.1492, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 86.41945719718933
+mIoU: 77.43589743589745  Best_mIoU: 77.43589743589745
+nIoU: 79.56563045221712  Best_nIoU: 79.56563045221712
+Pd: 95.43726235741445
+Fa: 20.648856661864556
+
+Train epoch 210 on NUAA-SIRST, loss: 0.1477, time elapsed 0:2s.
+Train epoch 211 on NUAA-SIRST, loss: 0.1550, time elapsed 0:2s.
+Train epoch 212 on NUAA-SIRST, loss: 0.1680, time elapsed 0:2s.
+Train epoch 213 on NUAA-SIRST, loss: 0.1482, time elapsed 0:2s.
+Train epoch 214 on NUAA-SIRST, loss: 0.1482, time elapsed 0:2s.
+Train epoch 215 on NUAA-SIRST, loss: 0.1508, time elapsed 0:2s.
+Train epoch 216 on NUAA-SIRST, loss: 0.1434, time elapsed 0:2s.
+Train epoch 217 on NUAA-SIRST, loss: 0.1463, time elapsed 0:2s.
+Train epoch 218 on NUAA-SIRST, loss: 0.1546, time elapsed 0:2s.
+Train epoch 219 on NUAA-SIRST, loss: 0.1488, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 85.32252311706543
+mIoU: 77.9690564393114  Best_mIoU: 77.9690564393114
+nIoU: 80.40822170879775  Best_nIoU: 80.40822170879775
+Pd: 95.05703422053232
+Fa: 19.894247088814154
+
+Train epoch 220 on NUAA-SIRST, loss: 0.1521, time elapsed 0:2s.
+Train epoch 221 on NUAA-SIRST, loss: 0.1495, time elapsed 0:2s.
+Train epoch 222 on NUAA-SIRST, loss: 0.1383, time elapsed 0:2s.
+Train epoch 223 on NUAA-SIRST, loss: 0.1439, time elapsed 0:2s.
+Train epoch 224 on NUAA-SIRST, loss: 0.1394, time elapsed 0:2s.
+Train epoch 225 on NUAA-SIRST, loss: 0.1400, time elapsed 0:2s.
+Train epoch 226 on NUAA-SIRST, loss: 0.1505, time elapsed 0:2s.
+Train epoch 227 on NUAA-SIRST, loss: 0.1383, time elapsed 0:2s.
+Train epoch 228 on NUAA-SIRST, loss: 0.1481, time elapsed 0:2s.
+Train epoch 229 on NUAA-SIRST, loss: 0.1442, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 85.35829186439514
+mIoU: 78.00174329919372  Best_mIoU: 78.00174329919372
+nIoU: 80.40538014718797  Best_nIoU: 80.40822170879775
+Pd: 95.43726235741445
+Fa: 18.72803295555059
+
+Train epoch 230 on NUAA-SIRST, loss: 0.1436, time elapsed 0:2s.
+Train epoch 231 on NUAA-SIRST, loss: 0.1424, time elapsed 0:2s.
+Train epoch 232 on NUAA-SIRST, loss: 0.1441, time elapsed 0:2s.
+Train epoch 233 on NUAA-SIRST, loss: 0.1418, time elapsed 0:2s.
+Train epoch 234 on NUAA-SIRST, loss: 0.1356, time elapsed 0:2s.
+Train epoch 235 on NUAA-SIRST, loss: 0.1413, time elapsed 0:2s.
+Train epoch 236 on NUAA-SIRST, loss: 0.1421, time elapsed 0:2s.
+Train epoch 237 on NUAA-SIRST, loss: 0.1390, time elapsed 0:2s.
+Train epoch 238 on NUAA-SIRST, loss: 0.1450, time elapsed 0:2s.
+Train epoch 239 on NUAA-SIRST, loss: 0.1403, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 86.12138032913208
+mIoU: 78.45970019552466  Best_mIoU: 78.45970019552466
+nIoU: 80.38730288423018  Best_nIoU: 80.40822170879775
+Pd: 95.81749049429658
+Fa: 16.87581061560195
+
+Train epoch 240 on NUAA-SIRST, loss: 0.1371, time elapsed 0:2s.
+Train epoch 241 on NUAA-SIRST, loss: 0.1416, time elapsed 0:2s.
+Train epoch 242 on NUAA-SIRST, loss: 0.1509, time elapsed 0:2s.
+Train epoch 243 on NUAA-SIRST, loss: 0.1440, time elapsed 0:2s.
+Train epoch 244 on NUAA-SIRST, loss: 0.1427, time elapsed 0:2s.
+Train epoch 245 on NUAA-SIRST, loss: 0.1469, time elapsed 0:2s.
+Train epoch 246 on NUAA-SIRST, loss: 0.1394, time elapsed 0:2s.
+Train epoch 247 on NUAA-SIRST, loss: 0.1454, time elapsed 0:2s.
+Train epoch 248 on NUAA-SIRST, loss: 0.1335, time elapsed 0:2s.
+Train epoch 249 on NUAA-SIRST, loss: 0.1397, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 85.7279121875763
+mIoU: 77.65417431688087  Best_mIoU: 78.45970019552466
+nIoU: 80.03232359812765  Best_nIoU: 80.40822170879775
+Pd: 95.05703422053232
+Fa: 20.786059394595213
+
+Train epoch 250 on NUAA-SIRST, loss: 0.1411, time elapsed 0:2s.
+Train epoch 251 on NUAA-SIRST, loss: 0.1375, time elapsed 0:2s.
+Train epoch 252 on NUAA-SIRST, loss: 0.1382, time elapsed 0:2s.
+Train epoch 253 on NUAA-SIRST, loss: 0.1367, time elapsed 0:2s.
+Train epoch 254 on NUAA-SIRST, loss: 0.1381, time elapsed 0:2s.
+Train epoch 255 on NUAA-SIRST, loss: 0.1351, time elapsed 0:2s.
+Train epoch 256 on NUAA-SIRST, loss: 0.1387, time elapsed 0:2s.
+Train epoch 257 on NUAA-SIRST, loss: 0.1394, time elapsed 0:2s.
+Train epoch 258 on NUAA-SIRST, loss: 0.1355, time elapsed 0:2s.
+Train epoch 259 on NUAA-SIRST, loss: 0.1307, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 85.33444404602051
+mIoU: 77.33952885238816  Best_mIoU: 78.45970019552466
+nIoU: 80.1315489913638  Best_nIoU: 80.40822170879775
+Pd: 95.05703422053232
+Fa: 24.970711820060387
+
+Train epoch 260 on NUAA-SIRST, loss: 0.1382, time elapsed 0:2s.
+Train epoch 261 on NUAA-SIRST, loss: 0.1413, time elapsed 0:2s.
+Train epoch 262 on NUAA-SIRST, loss: 0.1424, time elapsed 0:2s.
+Train epoch 263 on NUAA-SIRST, loss: 0.1324, time elapsed 0:2s.
+Train epoch 264 on NUAA-SIRST, loss: 0.1422, time elapsed 0:2s.
+Train epoch 265 on NUAA-SIRST, loss: 0.1509, time elapsed 0:2s.
+Train epoch 266 on NUAA-SIRST, loss: 0.1349, time elapsed 0:2s.
+Train epoch 267 on NUAA-SIRST, loss: 0.1437, time elapsed 0:2s.
+Train epoch 268 on NUAA-SIRST, loss: 0.1369, time elapsed 0:2s.
+Train epoch 269 on NUAA-SIRST, loss: 0.1320, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 87.49254941940308
+mIoU: 78.14696485623003  Best_mIoU: 78.45970019552466
+nIoU: 80.21668958117378  Best_nIoU: 80.40822170879775
+Pd: 95.43726235741445
+Fa: 23.392891307594255
+
+Train epoch 270 on NUAA-SIRST, loss: 0.1400, time elapsed 0:2s.
+Train epoch 271 on NUAA-SIRST, loss: 0.1377, time elapsed 0:2s.
+Train epoch 272 on NUAA-SIRST, loss: 0.1470, time elapsed 0:2s.
+Train epoch 273 on NUAA-SIRST, loss: 0.1349, time elapsed 0:2s.
+Train epoch 274 on NUAA-SIRST, loss: 0.1329, time elapsed 0:2s.
+Train epoch 275 on NUAA-SIRST, loss: 0.1305, time elapsed 0:2s.
+Train epoch 276 on NUAA-SIRST, loss: 0.1399, time elapsed 0:2s.
+Train epoch 277 on NUAA-SIRST, loss: 0.1362, time elapsed 0:2s.
+Train epoch 278 on NUAA-SIRST, loss: 0.1429, time elapsed 0:2s.
+Train epoch 279 on NUAA-SIRST, loss: 0.1358, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 86.30022406578064
+mIoU: 78.68246548537886  Best_mIoU: 78.68246548537886
+nIoU: 80.32910475558094  Best_nIoU: 80.40822170879775
+Pd: 96.1977186311787
+Fa: 15.503792383242399
+
+Train epoch 280 on NUAA-SIRST, loss: 0.1328, time elapsed 0:2s.
+Train epoch 281 on NUAA-SIRST, loss: 0.1377, time elapsed 0:2s.
+Train epoch 282 on NUAA-SIRST, loss: 0.1434, time elapsed 0:2s.
+Train epoch 283 on NUAA-SIRST, loss: 0.1378, time elapsed 0:2s.
+Train epoch 284 on NUAA-SIRST, loss: 0.1308, time elapsed 0:2s.
+Train epoch 285 on NUAA-SIRST, loss: 0.1340, time elapsed 0:2s.
+Train epoch 286 on NUAA-SIRST, loss: 0.1310, time elapsed 0:2s.
+Train epoch 287 on NUAA-SIRST, loss: 0.1425, time elapsed 0:2s.
+Train epoch 288 on NUAA-SIRST, loss: 0.1343, time elapsed 0:2s.
+Train epoch 289 on NUAA-SIRST, loss: 0.1378, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 87.24216222763062
+mIoU: 78.0313533112936  Best_mIoU: 78.68246548537886
+nIoU: 79.84964791508749  Best_nIoU: 80.40822170879775
+Pd: 95.81749049429658
+Fa: 21.746471247752197
+
+Train epoch 290 on NUAA-SIRST, loss: 0.1319, time elapsed 0:2s.
+Train epoch 291 on NUAA-SIRST, loss: 0.1416, time elapsed 0:2s.
+Train epoch 292 on NUAA-SIRST, loss: 0.1346, time elapsed 0:2s.
+Train epoch 293 on NUAA-SIRST, loss: 0.1404, time elapsed 0:2s.
+Train epoch 294 on NUAA-SIRST, loss: 0.1328, time elapsed 0:2s.
+Train epoch 295 on NUAA-SIRST, loss: 0.1357, time elapsed 0:2s.
+Train epoch 296 on NUAA-SIRST, loss: 0.1375, time elapsed 0:2s.
+Train epoch 297 on NUAA-SIRST, loss: 0.1313, time elapsed 0:2s.
+Train epoch 298 on NUAA-SIRST, loss: 0.1385, time elapsed 0:2s.
+Train epoch 299 on NUAA-SIRST, loss: 0.1327, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 85.48944592475891
+mIoU: 78.93867664868436  Best_mIoU: 78.93867664868436
+nIoU: 80.69887147856086  Best_nIoU: 80.69887147856086
+Pd: 95.05703422053232
+Fa: 13.788771866529714
+
+Train epoch 300 on NUAA-SIRST, loss: 0.1428, time elapsed 0:2s.
+Train epoch 301 on NUAA-SIRST, loss: 0.1394, time elapsed 0:2s.
+Train epoch 302 on NUAA-SIRST, loss: 0.1303, time elapsed 0:2s.
+Train epoch 303 on NUAA-SIRST, loss: 0.1313, time elapsed 0:2s.
+Train epoch 304 on NUAA-SIRST, loss: 0.1374, time elapsed 0:2s.
+Train epoch 305 on NUAA-SIRST, loss: 0.1315, time elapsed 0:2s.
+Train epoch 306 on NUAA-SIRST, loss: 0.1336, time elapsed 0:2s.
+Train epoch 307 on NUAA-SIRST, loss: 0.1340, time elapsed 0:2s.
+Train epoch 308 on NUAA-SIRST, loss: 0.1270, time elapsed 0:2s.
+Train epoch 309 on NUAA-SIRST, loss: 0.1352, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 86.34791970252991
+mIoU: 78.94908971982993  Best_mIoU: 78.94908971982993
+nIoU: 80.71958712546727  Best_nIoU: 80.71958712546727
+Pd: 95.05703422053232
+Fa: 15.915398762444966
+
+Train epoch 310 on NUAA-SIRST, loss: 0.1318, time elapsed 0:2s.
+Train epoch 311 on NUAA-SIRST, loss: 0.1285, time elapsed 0:2s.
+Train epoch 312 on NUAA-SIRST, loss: 0.1342, time elapsed 0:2s.
+Train epoch 313 on NUAA-SIRST, loss: 0.1296, time elapsed 0:2s.
+Train epoch 314 on NUAA-SIRST, loss: 0.1298, time elapsed 0:2s.
+Train epoch 315 on NUAA-SIRST, loss: 0.1295, time elapsed 0:2s.
+Train epoch 316 on NUAA-SIRST, loss: 0.1350, time elapsed 0:2s.
+Train epoch 317 on NUAA-SIRST, loss: 0.1317, time elapsed 0:2s.
+Train epoch 318 on NUAA-SIRST, loss: 0.1337, time elapsed 0:2s.
+Train epoch 319 on NUAA-SIRST, loss: 0.1375, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 86.92023158073425
+mIoU: 79.1015625  Best_mIoU: 79.1015625
+nIoU: 80.67358651533353  Best_nIoU: 80.71958712546727
+Pd: 95.43726235741445
+Fa: 15.98399830982089
+
+Train epoch 320 on NUAA-SIRST, loss: 0.1377, time elapsed 0:2s.
+Train epoch 321 on NUAA-SIRST, loss: 0.1297, time elapsed 0:2s.
+Train epoch 322 on NUAA-SIRST, loss: 0.1328, time elapsed 0:2s.
+Train epoch 323 on NUAA-SIRST, loss: 0.1437, time elapsed 0:2s.
+Train epoch 324 on NUAA-SIRST, loss: 0.1346, time elapsed 0:2s.
+Train epoch 325 on NUAA-SIRST, loss: 0.1287, time elapsed 0:2s.
+Train epoch 326 on NUAA-SIRST, loss: 0.1294, time elapsed 0:2s.
+Train epoch 327 on NUAA-SIRST, loss: 0.1379, time elapsed 0:2s.
+Train epoch 328 on NUAA-SIRST, loss: 0.1428, time elapsed 0:2s.
+Train epoch 329 on NUAA-SIRST, loss: 0.1345, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 86.44330501556396
+mIoU: 79.11392405063292  Best_mIoU: 79.11392405063292
+nIoU: 80.78608641286735  Best_nIoU: 80.78608641286735
+Pd: 95.05703422053232
+Fa: 15.297990103135817
+
+Train epoch 330 on NUAA-SIRST, loss: 0.1399, time elapsed 0:2s.
+Train epoch 331 on NUAA-SIRST, loss: 0.1322, time elapsed 0:2s.
+Train epoch 332 on NUAA-SIRST, loss: 0.1427, time elapsed 0:2s.
+Train epoch 333 on NUAA-SIRST, loss: 0.1286, time elapsed 0:2s.
+Train epoch 334 on NUAA-SIRST, loss: 0.1376, time elapsed 0:2s.
+Train epoch 335 on NUAA-SIRST, loss: 0.1302, time elapsed 0:2s.
+Train epoch 336 on NUAA-SIRST, loss: 0.1338, time elapsed 0:2s.
+Train epoch 337 on NUAA-SIRST, loss: 0.1300, time elapsed 0:2s.
+Train epoch 338 on NUAA-SIRST, loss: 0.1377, time elapsed 0:2s.
+Train epoch 339 on NUAA-SIRST, loss: 0.1303, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 86.84869408607483
+mIoU: 79.05361406555242  Best_mIoU: 79.11392405063292
+nIoU: 80.61659866186407  Best_nIoU: 80.78608641286735
+Pd: 95.43726235741445
+Fa: 16.53280560276471
+
+Train epoch 340 on NUAA-SIRST, loss: 0.1272, time elapsed 0:2s.
+Train epoch 341 on NUAA-SIRST, loss: 0.1448, time elapsed 0:2s.
+Train epoch 342 on NUAA-SIRST, loss: 0.1371, time elapsed 0:2s.
+Train epoch 343 on NUAA-SIRST, loss: 0.1291, time elapsed 0:2s.
+Train epoch 344 on NUAA-SIRST, loss: 0.1239, time elapsed 0:2s.
+Train epoch 345 on NUAA-SIRST, loss: 0.1274, time elapsed 0:2s.
+Train epoch 346 on NUAA-SIRST, loss: 0.1340, time elapsed 0:2s.
+Train epoch 347 on NUAA-SIRST, loss: 0.1272, time elapsed 0:2s.
+Train epoch 348 on NUAA-SIRST, loss: 0.1272, time elapsed 0:2s.
+Train epoch 349 on NUAA-SIRST, loss: 0.1392, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 86.622154712677
+mIoU: 78.89878366637706  Best_mIoU: 79.11392405063292
+nIoU: 80.59258557708581  Best_nIoU: 80.78608641286735
+Pd: 95.43726235741445
+Fa: 16.32700332265813
+
+Train epoch 350 on NUAA-SIRST, loss: 0.1290, time elapsed 0:2s.
+Train epoch 351 on NUAA-SIRST, loss: 0.1336, time elapsed 0:2s.
+Train epoch 352 on NUAA-SIRST, loss: 0.1263, time elapsed 0:2s.
+Train epoch 353 on NUAA-SIRST, loss: 0.1271, time elapsed 0:2s.
+Train epoch 354 on NUAA-SIRST, loss: 0.1340, time elapsed 0:2s.
+Train epoch 355 on NUAA-SIRST, loss: 0.1313, time elapsed 0:2s.
+Train epoch 356 on NUAA-SIRST, loss: 0.1413, time elapsed 0:2s.
+Train epoch 357 on NUAA-SIRST, loss: 0.1383, time elapsed 0:2s.
+Train epoch 358 on NUAA-SIRST, loss: 0.1377, time elapsed 0:2s.
+Train epoch 359 on NUAA-SIRST, loss: 0.1316, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:9s.
+pixAcc: 86.84869408607483
+mIoU: 79.21696574225122  Best_mIoU: 79.21696574225122
+nIoU: 80.80238267287271  Best_nIoU: 80.80238267287271
+Pd: 95.43726235741445
+Fa: 15.915398762444966
+
+Train epoch 360 on NUAA-SIRST, loss: 0.1319, time elapsed 0:2s.
+Train epoch 361 on NUAA-SIRST, loss: 0.1297, time elapsed 0:2s.
+Train epoch 362 on NUAA-SIRST, loss: 0.1362, time elapsed 0:2s.
+Train epoch 363 on NUAA-SIRST, loss: 0.1336, time elapsed 0:2s.
+Train epoch 364 on NUAA-SIRST, loss: 0.1370, time elapsed 0:2s.
+Train epoch 365 on NUAA-SIRST, loss: 0.1296, time elapsed 0:2s.
+Train epoch 366 on NUAA-SIRST, loss: 0.1315, time elapsed 0:2s.
+Train epoch 367 on NUAA-SIRST, loss: 0.1357, time elapsed 0:2s.
+Train epoch 368 on NUAA-SIRST, loss: 0.1353, time elapsed 0:2s.
+Train epoch 369 on NUAA-SIRST, loss: 0.1306, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 85.79944968223572
+mIoU: 78.70502023405884  Best_mIoU: 79.21696574225122
+nIoU: 80.74443109747247  Best_nIoU: 80.80238267287271
+Pd: 94.67680608365019
+Fa: 15.572393749607727
+
+Train epoch 370 on NUAA-SIRST, loss: 0.1386, time elapsed 0:2s.
+Train epoch 371 on NUAA-SIRST, loss: 0.1329, time elapsed 0:2s.
+Train epoch 372 on NUAA-SIRST, loss: 0.1406, time elapsed 0:2s.
+Train epoch 373 on NUAA-SIRST, loss: 0.1354, time elapsed 0:2s.
+Train epoch 374 on NUAA-SIRST, loss: 0.1397, time elapsed 0:2s.
+Train epoch 375 on NUAA-SIRST, loss: 0.1372, time elapsed 0:2s.
+Train epoch 376 on NUAA-SIRST, loss: 0.1300, time elapsed 0:2s.
+Train epoch 377 on NUAA-SIRST, loss: 0.1295, time elapsed 0:2s.
+Train epoch 378 on NUAA-SIRST, loss: 0.1334, time elapsed 0:2s.
+Train epoch 379 on NUAA-SIRST, loss: 0.1343, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 86.15714907646179
+mIoU: 79.04178516735944  Best_mIoU: 79.21696574225122
+nIoU: 80.7869847647664  Best_nIoU: 80.80238267287271
+Pd: 95.43726235741445
+Fa: 14.406179616344161
+
+Train epoch 380 on NUAA-SIRST, loss: 0.1321, time elapsed 0:2s.
+Train epoch 381 on NUAA-SIRST, loss: 0.1369, time elapsed 0:2s.
+Train epoch 382 on NUAA-SIRST, loss: 0.1405, time elapsed 0:2s.
+Train epoch 383 on NUAA-SIRST, loss: 0.1328, time elapsed 0:2s.
+Train epoch 384 on NUAA-SIRST, loss: 0.1338, time elapsed 0:2s.
+Train epoch 385 on NUAA-SIRST, loss: 0.1324, time elapsed 0:2s.
+Train epoch 386 on NUAA-SIRST, loss: 0.1280, time elapsed 0:2s.
+Train epoch 387 on NUAA-SIRST, loss: 0.1283, time elapsed 0:2s.
+Train epoch 388 on NUAA-SIRST, loss: 0.1370, time elapsed 0:2s.
+Train epoch 389 on NUAA-SIRST, loss: 0.1292, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 85.53714156150818
+mIoU: 78.68816496654601  Best_mIoU: 79.21696574225122
+nIoU: 80.80918939039918  Best_nIoU: 80.80918939039918
+Pd: 94.67680608365019
+Fa: 15.22938964626519
+
+Train epoch 390 on NUAA-SIRST, loss: 0.1391, time elapsed 0:2s.
+Train epoch 391 on NUAA-SIRST, loss: 0.1288, time elapsed 0:2s.
+Train epoch 392 on NUAA-SIRST, loss: 0.1447, time elapsed 0:2s.
+Train epoch 393 on NUAA-SIRST, loss: 0.1274, time elapsed 0:2s.
+Train epoch 394 on NUAA-SIRST, loss: 0.1330, time elapsed 0:2s.
+Train epoch 395 on NUAA-SIRST, loss: 0.1317, time elapsed 0:2s.
+Train epoch 396 on NUAA-SIRST, loss: 0.1323, time elapsed 0:2s.
+Train epoch 397 on NUAA-SIRST, loss: 0.1321, time elapsed 0:2s.
+Train epoch 398 on NUAA-SIRST, loss: 0.1379, time elapsed 0:2s.
+Train epoch 399 on NUAA-SIRST, loss: 0.1344, time elapsed 0:2s.
+-----------------------
+Eval on NUAA-SIRST, time elapsed 0:8s.
+pixAcc: 85.66829562187195
+mIoU: 78.69660460021906  Best_mIoU: 79.21696574225122
+nIoU: 80.68218578584626  Best_nIoU: 80.80918939039918
+Pd: 95.05703422053232
+Fa: 16.2584019562928
+
+
+========== Inference ===========
+=========================
+Inference on NUAA-SIRST with mIoU, time elapsed 0:9s.
+pixAcc: 86.84869408607483
+mIoU: 79.21696574225122
+nIoU: 80.80238267287271
+Pd: 95.43726235741445
+Fa: 15.915398762444966
+
+=========================
+Inference on NUAA-SIRST with nIoU, time elapsed 0:9s.
+pixAcc: 85.53714156150818
+mIoU: 78.68816496654601
+nIoU: 80.80918939039918
+Pd: 94.67680608365019
+Fa: 15.22938964626519
+
+///////////////////////////////////////////////////////
+Namespace(batchSize=16, dataset_dir='/home/pc/work/BasicIRSTD-main/data', epochs=400, img_norm_cfg=None, img_norm_cfg_mean=None, img_norm_cfg_std=None, mode='train', model='BasicUNet_plus', name='basicunet_test_results', num_workers=8, optimizer_name='Adam', optimizer_settings={'lr': 0.0005}, patchSize=256, pretrained=None, resume=None, scheduler_name='MultiStepLR', scheduler_settings={'epochs': 400, 'step': [200, 300], 'gamma': 0.1}, seed=42, test_freq=10, testset=['NUDT-SIRST'], threshold=0.5, trainset='NUDT-SIRST')
+663 samples from NUDT-SIRST for train
+664 samples from NUDT-SIRST for val
+
+========== Training ===========
+Train epoch 000 on NUDT-SIRST, loss: 0.8336, time elapsed 0:7s.
+Train epoch 001 on NUDT-SIRST, loss: 0.5480, time elapsed 0:6s.
+Train epoch 002 on NUDT-SIRST, loss: 0.4384, time elapsed 0:6s.
+Train epoch 003 on NUDT-SIRST, loss: 0.3863, time elapsed 0:6s.
+Train epoch 004 on NUDT-SIRST, loss: 0.3480, time elapsed 0:6s.
+Train epoch 005 on NUDT-SIRST, loss: 0.3164, time elapsed 0:6s.
+Train epoch 006 on NUDT-SIRST, loss: 0.3122, time elapsed 0:6s.
+Train epoch 007 on NUDT-SIRST, loss: 0.2938, time elapsed 0:6s.
+Train epoch 008 on NUDT-SIRST, loss: 0.2818, time elapsed 0:6s.
+Train epoch 009 on NUDT-SIRST, loss: 0.2761, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 84.58414077758789
+mIoU: 72.68368183059695  Best_mIoU: 72.68368183059695
+nIoU: 74.60725150538056  Best_nIoU: 74.60725150538056
+Pd: 93.33333333333333
+Fa: 28.380427465890534
+
+Train epoch 010 on NUDT-SIRST, loss: 0.2752, time elapsed 0:6s.
+Train epoch 011 on NUDT-SIRST, loss: 0.2694, time elapsed 0:6s.
+Train epoch 012 on NUDT-SIRST, loss: 0.2576, time elapsed 0:6s.
+Train epoch 013 on NUDT-SIRST, loss: 0.2660, time elapsed 0:6s.
+Train epoch 014 on NUDT-SIRST, loss: 0.2360, time elapsed 0:6s.
+Train epoch 015 on NUDT-SIRST, loss: 0.2510, time elapsed 0:6s.
+Train epoch 016 on NUDT-SIRST, loss: 0.2448, time elapsed 0:7s.
+Train epoch 017 on NUDT-SIRST, loss: 0.2237, time elapsed 0:6s.
+Train epoch 018 on NUDT-SIRST, loss: 0.2374, time elapsed 0:6s.
+Train epoch 019 on NUDT-SIRST, loss: 0.2354, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 87.94984817504883
+mIoU: 75.91915127126396  Best_mIoU: 75.91915127126396
+nIoU: 78.11833953834359  Best_nIoU: 78.11833953834359
+Pd: 95.34391534391534
+Fa: 27.162481273990124
+
+Train epoch 020 on NUDT-SIRST, loss: 0.2236, time elapsed 0:6s.
+Train epoch 021 on NUDT-SIRST, loss: 0.2096, time elapsed 0:6s.
+Train epoch 022 on NUDT-SIRST, loss: 0.2304, time elapsed 0:6s.
+Train epoch 023 on NUDT-SIRST, loss: 0.2086, time elapsed 0:6s.
+Train epoch 024 on NUDT-SIRST, loss: 0.2111, time elapsed 0:6s.
+Train epoch 025 on NUDT-SIRST, loss: 0.2251, time elapsed 0:6s.
+Train epoch 026 on NUDT-SIRST, loss: 0.2013, time elapsed 0:6s.
+Train epoch 027 on NUDT-SIRST, loss: 0.1958, time elapsed 0:6s.
+Train epoch 028 on NUDT-SIRST, loss: 0.2210, time elapsed 0:6s.
+Train epoch 029 on NUDT-SIRST, loss: 0.2396, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 81.53982162475586
+mIoU: 75.53490806778774  Best_mIoU: 75.91915127126396
+nIoU: 77.31695762594345  Best_nIoU: 78.11833953834359
+Pd: 94.17989417989418
+Fa: 19.64798866538331
+
+Train epoch 030 on NUDT-SIRST, loss: 0.2034, time elapsed 0:6s.
+Train epoch 031 on NUDT-SIRST, loss: 0.1987, time elapsed 0:7s.
+Train epoch 032 on NUDT-SIRST, loss: 0.1932, time elapsed 0:6s.
+Train epoch 033 on NUDT-SIRST, loss: 0.1942, time elapsed 0:6s.
+Train epoch 034 on NUDT-SIRST, loss: 0.1821, time elapsed 0:6s.
+Train epoch 035 on NUDT-SIRST, loss: 0.1651, time elapsed 0:6s.
+Train epoch 036 on NUDT-SIRST, loss: 0.1759, time elapsed 0:6s.
+Train epoch 037 on NUDT-SIRST, loss: 0.1945, time elapsed 0:6s.
+Train epoch 038 on NUDT-SIRST, loss: 0.1778, time elapsed 0:6s.
+Train epoch 039 on NUDT-SIRST, loss: 0.1756, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 91.80646538734436
+mIoU: 81.76842502595075  Best_mIoU: 81.76842502595075
+nIoU: 83.95137064889869  Best_nIoU: 83.95137064889869
+Pd: 97.98941798941799
+Fa: 26.88672066142317
+
+Train epoch 040 on NUDT-SIRST, loss: 0.1697, time elapsed 0:6s.
+Train epoch 041 on NUDT-SIRST, loss: 0.1628, time elapsed 0:6s.
+Train epoch 042 on NUDT-SIRST, loss: 0.1539, time elapsed 0:6s.
+Train epoch 043 on NUDT-SIRST, loss: 0.1640, time elapsed 0:6s.
+Train epoch 044 on NUDT-SIRST, loss: 0.1627, time elapsed 0:6s.
+Train epoch 045 on NUDT-SIRST, loss: 0.1542, time elapsed 0:6s.
+Train epoch 046 on NUDT-SIRST, loss: 0.1523, time elapsed 0:6s.
+Train epoch 047 on NUDT-SIRST, loss: 0.1510, time elapsed 0:7s.
+Train epoch 048 on NUDT-SIRST, loss: 0.1778, time elapsed 0:6s.
+Train epoch 049 on NUDT-SIRST, loss: 0.1762, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 92.72117018699646
+mIoU: 83.94832768433844  Best_mIoU: 83.94832768433844
+nIoU: 85.16935679432173  Best_nIoU: 85.16935679432173
+Pd: 96.71957671957672
+Fa: 15.94819150341209
+
+Train epoch 050 on NUDT-SIRST, loss: 0.1506, time elapsed 0:6s.
+Train epoch 051 on NUDT-SIRST, loss: 0.1457, time elapsed 0:6s.
+Train epoch 052 on NUDT-SIRST, loss: 0.1420, time elapsed 0:6s.
+Train epoch 053 on NUDT-SIRST, loss: 0.1375, time elapsed 0:6s.
+Train epoch 054 on NUDT-SIRST, loss: 0.1287, time elapsed 0:6s.
+Train epoch 055 on NUDT-SIRST, loss: 0.1257, time elapsed 0:6s.
+Train epoch 056 on NUDT-SIRST, loss: 0.1333, time elapsed 0:6s.
+Train epoch 057 on NUDT-SIRST, loss: 0.1279, time elapsed 0:6s.
+Train epoch 058 on NUDT-SIRST, loss: 0.1261, time elapsed 0:6s.
+Train epoch 059 on NUDT-SIRST, loss: 0.1174, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 94.52586770057678
+mIoU: 85.93674747150425  Best_mIoU: 85.93674747150425
+nIoU: 87.12865609544977  Best_nIoU: 87.12865609544977
+Pd: 98.2010582010582
+Fa: 18.269181964569725
+
+Train epoch 060 on NUDT-SIRST, loss: 0.1344, time elapsed 0:6s.
+Train epoch 061 on NUDT-SIRST, loss: 0.1216, time elapsed 0:6s.
+Train epoch 062 on NUDT-SIRST, loss: 0.1337, time elapsed 0:7s.
+Train epoch 063 on NUDT-SIRST, loss: 0.1421, time elapsed 0:6s.
+Train epoch 064 on NUDT-SIRST, loss: 0.1255, time elapsed 0:6s.
+Train epoch 065 on NUDT-SIRST, loss: 0.1203, time elapsed 0:6s.
+Train epoch 066 on NUDT-SIRST, loss: 0.1239, time elapsed 0:6s.
+Train epoch 067 on NUDT-SIRST, loss: 0.1097, time elapsed 0:6s.
+Train epoch 068 on NUDT-SIRST, loss: 0.0978, time elapsed 0:6s.
+Train epoch 069 on NUDT-SIRST, loss: 0.1037, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 93.20501685142517
+mIoU: 88.17574340126963  Best_mIoU: 88.17574340126963
+nIoU: 89.29527672006202  Best_nIoU: 89.29527672006202
+Pd: 98.09523809523809
+Fa: 10.409986316517461
+
+Train epoch 070 on NUDT-SIRST, loss: 0.1006, time elapsed 0:6s.
+Train epoch 071 on NUDT-SIRST, loss: 0.1019, time elapsed 0:6s.
+Train epoch 072 on NUDT-SIRST, loss: 0.1074, time elapsed 0:6s.
+Train epoch 073 on NUDT-SIRST, loss: 0.0973, time elapsed 0:6s.
+Train epoch 074 on NUDT-SIRST, loss: 0.0985, time elapsed 0:6s.
+Train epoch 075 on NUDT-SIRST, loss: 0.0969, time elapsed 0:6s.
+Train epoch 076 on NUDT-SIRST, loss: 0.0924, time elapsed 0:6s.
+Train epoch 077 on NUDT-SIRST, loss: 0.0969, time elapsed 0:6s.
+Train epoch 078 on NUDT-SIRST, loss: 0.0958, time elapsed 0:6s.
+Train epoch 079 on NUDT-SIRST, loss: 0.0937, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 94.86138224601746
+mIoU: 87.87829216424015  Best_mIoU: 88.17574340126963
+nIoU: 89.38027605192252  Best_nIoU: 89.38027605192252
+Pd: 98.2010582010582
+Fa: 18.36110277508851
+
+Train epoch 080 on NUDT-SIRST, loss: 0.0870, time elapsed 0:6s.
+Train epoch 081 on NUDT-SIRST, loss: 0.0894, time elapsed 0:6s.
+Train epoch 082 on NUDT-SIRST, loss: 0.0965, time elapsed 0:6s.
+Train epoch 083 on NUDT-SIRST, loss: 0.1141, time elapsed 0:6s.
+Train epoch 084 on NUDT-SIRST, loss: 0.0964, time elapsed 0:6s.
+Train epoch 085 on NUDT-SIRST, loss: 0.1177, time elapsed 0:6s.
+Train epoch 086 on NUDT-SIRST, loss: 0.1217, time elapsed 0:6s.
+Train epoch 087 on NUDT-SIRST, loss: 0.1078, time elapsed 0:6s.
+Train epoch 088 on NUDT-SIRST, loss: 0.1012, time elapsed 0:6s.
+Train epoch 089 on NUDT-SIRST, loss: 0.0993, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 94.9214220046997
+mIoU: 88.77035373385739  Best_mIoU: 88.77035373385739
+nIoU: 90.06652728255872  Best_nIoU: 90.06652728255872
+Pd: 98.73015873015873
+Fa: 15.902231098152697
+
+Train epoch 090 on NUDT-SIRST, loss: 0.0899, time elapsed 0:6s.
+Train epoch 091 on NUDT-SIRST, loss: 0.0916, time elapsed 0:6s.
+Train epoch 092 on NUDT-SIRST, loss: 0.0951, time elapsed 0:6s.
+Train epoch 093 on NUDT-SIRST, loss: 0.1147, time elapsed 0:6s.
+Train epoch 094 on NUDT-SIRST, loss: 0.0933, time elapsed 0:7s.
+Train epoch 095 on NUDT-SIRST, loss: 0.0954, time elapsed 0:6s.
+Train epoch 096 on NUDT-SIRST, loss: 0.0861, time elapsed 0:6s.
+Train epoch 097 on NUDT-SIRST, loss: 0.0937, time elapsed 0:6s.
+Train epoch 098 on NUDT-SIRST, loss: 0.0848, time elapsed 0:6s.
+Train epoch 099 on NUDT-SIRST, loss: 0.0843, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 93.95373463630676
+mIoU: 89.90233516947721  Best_mIoU: 89.90233516947721
+nIoU: 90.86956782654296  Best_nIoU: 90.86956782654296
+Pd: 98.51851851851852
+Fa: 10.800648851727601
+
+Train epoch 100 on NUDT-SIRST, loss: 0.0926, time elapsed 0:6s.
+Train epoch 101 on NUDT-SIRST, loss: 0.0868, time elapsed 0:6s.
+Train epoch 102 on NUDT-SIRST, loss: 0.0891, time elapsed 0:6s.
+Train epoch 103 on NUDT-SIRST, loss: 0.0846, time elapsed 0:6s.
+Train epoch 104 on NUDT-SIRST, loss: 0.0897, time elapsed 0:6s.
+Train epoch 105 on NUDT-SIRST, loss: 0.0911, time elapsed 0:6s.
+Train epoch 106 on NUDT-SIRST, loss: 0.0823, time elapsed 0:6s.
+Train epoch 107 on NUDT-SIRST, loss: 0.0789, time elapsed 0:6s.
+Train epoch 108 on NUDT-SIRST, loss: 0.0846, time elapsed 0:6s.
+Train epoch 109 on NUDT-SIRST, loss: 0.0768, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 95.16863822937012
+mIoU: 90.34734795145175  Best_mIoU: 90.34734795145175
+nIoU: 90.70176349171011  Best_nIoU: 90.86956782654296
+Pd: 98.73015873015873
+Fa: 6.710190064040944
+
+Train epoch 110 on NUDT-SIRST, loss: 0.1108, time elapsed 0:6s.
+Train epoch 111 on NUDT-SIRST, loss: 0.0954, time elapsed 0:6s.
+Train epoch 112 on NUDT-SIRST, loss: 0.0837, time elapsed 0:6s.
+Train epoch 113 on NUDT-SIRST, loss: 0.0863, time elapsed 0:6s.
+Train epoch 114 on NUDT-SIRST, loss: 0.0854, time elapsed 0:6s.
+Train epoch 115 on NUDT-SIRST, loss: 0.0797, time elapsed 0:6s.
+Train epoch 116 on NUDT-SIRST, loss: 0.0764, time elapsed 0:6s.
+Train epoch 117 on NUDT-SIRST, loss: 0.0783, time elapsed 0:6s.
+Train epoch 118 on NUDT-SIRST, loss: 0.0837, time elapsed 0:6s.
+Train epoch 119 on NUDT-SIRST, loss: 0.0825, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 95.23220658302307
+mIoU: 89.21717840127052  Best_mIoU: 90.34734795145175
+nIoU: 90.13325892361685  Best_nIoU: 90.86956782654296
+Pd: 98.73015873015873
+Fa: 14.063823073229287
+
+Train epoch 120 on NUDT-SIRST, loss: 0.0824, time elapsed 0:6s.
+Train epoch 121 on NUDT-SIRST, loss: 0.0752, time elapsed 0:6s.
+Train epoch 122 on NUDT-SIRST, loss: 0.0758, time elapsed 0:6s.
+Train epoch 123 on NUDT-SIRST, loss: 0.0849, time elapsed 0:6s.
+Train epoch 124 on NUDT-SIRST, loss: 0.0781, time elapsed 0:6s.
+Train epoch 125 on NUDT-SIRST, loss: 0.0770, time elapsed 0:7s.
+Train epoch 126 on NUDT-SIRST, loss: 0.0800, time elapsed 0:6s.
+Train epoch 127 on NUDT-SIRST, loss: 0.0754, time elapsed 0:6s.
+Train epoch 128 on NUDT-SIRST, loss: 0.0782, time elapsed 0:6s.
+Train epoch 129 on NUDT-SIRST, loss: 0.0750, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:27s.
+pixAcc: 94.14798021316528
+mIoU: 91.20706172163679  Best_mIoU: 91.20706172163679
+nIoU: 91.84251391028216  Best_nIoU: 91.84251391028216
+Pd: 99.04761904761905
+Fa: 9.14608062885236
+
+Train epoch 130 on NUDT-SIRST, loss: 0.0751, time elapsed 0:6s.
+Train epoch 131 on NUDT-SIRST, loss: 0.0734, time elapsed 0:6s.
+Train epoch 132 on NUDT-SIRST, loss: 0.0719, time elapsed 0:6s.
+Train epoch 133 on NUDT-SIRST, loss: 0.0709, time elapsed 0:6s.
+Train epoch 134 on NUDT-SIRST, loss: 0.0668, time elapsed 0:6s.
+Train epoch 135 on NUDT-SIRST, loss: 0.0651, time elapsed 0:6s.
+Train epoch 136 on NUDT-SIRST, loss: 0.0690, time elapsed 0:6s.
+Train epoch 137 on NUDT-SIRST, loss: 0.0671, time elapsed 0:6s.
+Train epoch 138 on NUDT-SIRST, loss: 0.0915, time elapsed 0:6s.
+Train epoch 139 on NUDT-SIRST, loss: 0.0738, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 94.17623281478882
+mIoU: 89.63662644122492  Best_mIoU: 91.20706172163679
+nIoU: 90.73269675713296  Best_nIoU: 91.84251391028216
+Pd: 98.09523809523809
+Fa: 17.34997749736067
+
+Train epoch 140 on NUDT-SIRST, loss: 0.0932, time elapsed 0:6s.
+Train epoch 141 on NUDT-SIRST, loss: 0.0857, time elapsed 0:7s.
+Train epoch 142 on NUDT-SIRST, loss: 0.0728, time elapsed 0:6s.
+Train epoch 143 on NUDT-SIRST, loss: 0.0676, time elapsed 0:6s.
+Train epoch 144 on NUDT-SIRST, loss: 0.0692, time elapsed 0:6s.
+Train epoch 145 on NUDT-SIRST, loss: 0.0645, time elapsed 0:6s.
+Train epoch 146 on NUDT-SIRST, loss: 0.0652, time elapsed 0:6s.
+Train epoch 147 on NUDT-SIRST, loss: 0.0671, time elapsed 0:6s.
+Train epoch 148 on NUDT-SIRST, loss: 0.0636, time elapsed 0:6s.
+Train epoch 149 on NUDT-SIRST, loss: 0.0681, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 94.28218007087708
+mIoU: 91.29958960328317  Best_mIoU: 91.29958960328317
+nIoU: 92.04086533096412  Best_nIoU: 92.04086533096412
+Pd: 98.62433862433862
+Fa: 6.917010978213511
+
+Train epoch 150 on NUDT-SIRST, loss: 0.0711, time elapsed 0:6s.
+Train epoch 151 on NUDT-SIRST, loss: 0.0745, time elapsed 0:6s.
+Train epoch 152 on NUDT-SIRST, loss: 0.0735, time elapsed 0:6s.
+Train epoch 153 on NUDT-SIRST, loss: 0.0741, time elapsed 0:6s.
+Train epoch 154 on NUDT-SIRST, loss: 0.0746, time elapsed 0:6s.
+Train epoch 155 on NUDT-SIRST, loss: 0.0654, time elapsed 0:6s.
+Train epoch 156 on NUDT-SIRST, loss: 0.0654, time elapsed 0:6s.
+Train epoch 157 on NUDT-SIRST, loss: 0.0665, time elapsed 0:7s.
+Train epoch 158 on NUDT-SIRST, loss: 0.0679, time elapsed 0:6s.
+Train epoch 159 on NUDT-SIRST, loss: 0.0672, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 95.3770101070404
+mIoU: 90.86810228802153  Best_mIoU: 91.29958960328317
+nIoU: 91.70525803730166  Best_nIoU: 92.04086533096412
+Pd: 99.04761904761905
+Fa: 10.593827937555034
+
+Train epoch 160 on NUDT-SIRST, loss: 0.0669, time elapsed 0:6s.
+Train epoch 161 on NUDT-SIRST, loss: 0.0625, time elapsed 0:6s.
+Train epoch 162 on NUDT-SIRST, loss: 0.0681, time elapsed 0:6s.
+Train epoch 163 on NUDT-SIRST, loss: 0.0585, time elapsed 0:6s.
+Train epoch 164 on NUDT-SIRST, loss: 0.0624, time elapsed 0:6s.
+Train epoch 165 on NUDT-SIRST, loss: 0.0613, time elapsed 0:6s.
+Train epoch 166 on NUDT-SIRST, loss: 0.0597, time elapsed 0:6s.
+Train epoch 167 on NUDT-SIRST, loss: 0.0575, time elapsed 0:6s.
+Train epoch 168 on NUDT-SIRST, loss: 0.0581, time elapsed 0:6s.
+Train epoch 169 on NUDT-SIRST, loss: 0.0570, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 95.97739577293396
+mIoU: 92.10954446854663  Best_mIoU: 92.10954446854663
+nIoU: 92.58745483735986  Best_nIoU: 92.58745483735986
+Pd: 99.04761904761905
+Fa: 9.100121133087669
+
+Train epoch 170 on NUDT-SIRST, loss: 0.0554, time elapsed 0:6s.
+Train epoch 171 on NUDT-SIRST, loss: 0.0532, time elapsed 0:6s.
+Train epoch 172 on NUDT-SIRST, loss: 0.0569, time elapsed 0:7s.
+Train epoch 173 on NUDT-SIRST, loss: 0.0645, time elapsed 0:6s.
+Train epoch 174 on NUDT-SIRST, loss: 0.0676, time elapsed 0:6s.
+Train epoch 175 on NUDT-SIRST, loss: 0.0857, time elapsed 0:6s.
+Train epoch 176 on NUDT-SIRST, loss: 0.0743, time elapsed 0:6s.
+Train epoch 177 on NUDT-SIRST, loss: 0.0687, time elapsed 0:6s.
+Train epoch 178 on NUDT-SIRST, loss: 0.0613, time elapsed 0:6s.
+Train epoch 179 on NUDT-SIRST, loss: 0.0643, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 94.98499035835266
+mIoU: 91.44537757981708  Best_mIoU: 92.10954446854663
+nIoU: 92.13537790406346  Best_nIoU: 92.58745483735986
+Pd: 98.83597883597884
+Fa: 14.638325410487596
+
+Train epoch 180 on NUDT-SIRST, loss: 0.0611, time elapsed 0:6s.
+Train epoch 181 on NUDT-SIRST, loss: 0.0562, time elapsed 0:6s.
+Train epoch 182 on NUDT-SIRST, loss: 0.0601, time elapsed 0:6s.
+Train epoch 183 on NUDT-SIRST, loss: 0.0604, time elapsed 0:6s.
+Train epoch 184 on NUDT-SIRST, loss: 0.0581, time elapsed 0:6s.
+Train epoch 185 on NUDT-SIRST, loss: 0.0583, time elapsed 0:6s.
+Train epoch 186 on NUDT-SIRST, loss: 0.0542, time elapsed 0:6s.
+Train epoch 187 on NUDT-SIRST, loss: 0.0563, time elapsed 0:6s.
+Train epoch 188 on NUDT-SIRST, loss: 0.0559, time elapsed 0:7s.
+Train epoch 189 on NUDT-SIRST, loss: 0.0585, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:27s.
+pixAcc: 94.82606649398804
+mIoU: 92.96125748710314  Best_mIoU: 92.96125748710314
+nIoU: 93.20908348085428  Best_nIoU: 93.20908348085428
+Pd: 99.25925925925925
+Fa: 3.2861546515050577
+
+Train epoch 190 on NUDT-SIRST, loss: 0.0590, time elapsed 0:6s.
+Train epoch 191 on NUDT-SIRST, loss: 0.0563, time elapsed 0:6s.
+Train epoch 192 on NUDT-SIRST, loss: 0.0596, time elapsed 0:6s.
+Train epoch 193 on NUDT-SIRST, loss: 0.0568, time elapsed 0:6s.
+Train epoch 194 on NUDT-SIRST, loss: 0.0612, time elapsed 0:6s.
+Train epoch 195 on NUDT-SIRST, loss: 0.0617, time elapsed 0:6s.
+Train epoch 196 on NUDT-SIRST, loss: 0.0527, time elapsed 0:6s.
+Train epoch 197 on NUDT-SIRST, loss: 0.0570, time elapsed 0:6s.
+Train epoch 198 on NUDT-SIRST, loss: 0.0767, time elapsed 0:6s.
+Train epoch 199 on NUDT-SIRST, loss: 0.0708, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 95.20042538642883
+mIoU: 86.11590313717973  Best_mIoU: 92.96125748710314
+nIoU: 89.90994148428916  Best_nIoU: 93.20908348085428
+Pd: 98.3068783068783
+Fa: 46.92537186201662
+
+Train epoch 200 on NUDT-SIRST, loss: 0.0700, time elapsed 0:6s.
+Train epoch 201 on NUDT-SIRST, loss: 0.0575, time elapsed 0:6s.
+Train epoch 202 on NUDT-SIRST, loss: 0.0551, time elapsed 0:6s.
+Train epoch 203 on NUDT-SIRST, loss: 0.0519, time elapsed 0:7s.
+Train epoch 204 on NUDT-SIRST, loss: 0.0516, time elapsed 0:6s.
+Train epoch 205 on NUDT-SIRST, loss: 0.0486, time elapsed 0:6s.
+Train epoch 206 on NUDT-SIRST, loss: 0.0474, time elapsed 0:6s.
+Train epoch 207 on NUDT-SIRST, loss: 0.0485, time elapsed 0:6s.
+Train epoch 208 on NUDT-SIRST, loss: 0.0485, time elapsed 0:6s.
+Train epoch 209 on NUDT-SIRST, loss: 0.0455, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 95.91735601425171
+mIoU: 93.23377960865088  Best_mIoU: 93.23377960865088
+nIoU: 93.47178423355457  Best_nIoU: 93.47178423355457
+Pd: 98.51851851851852
+Fa: 3.8606572161370423
+
+Train epoch 210 on NUDT-SIRST, loss: 0.0471, time elapsed 0:6s.
+Train epoch 211 on NUDT-SIRST, loss: 0.0453, time elapsed 0:6s.
+Train epoch 212 on NUDT-SIRST, loss: 0.0471, time elapsed 0:6s.
+Train epoch 213 on NUDT-SIRST, loss: 0.0462, time elapsed 0:6s.
+Train epoch 214 on NUDT-SIRST, loss: 0.0452, time elapsed 0:6s.
+Train epoch 215 on NUDT-SIRST, loss: 0.0453, time elapsed 0:6s.
+Train epoch 216 on NUDT-SIRST, loss: 0.0455, time elapsed 0:6s.
+Train epoch 217 on NUDT-SIRST, loss: 0.0437, time elapsed 0:6s.
+Train epoch 218 on NUDT-SIRST, loss: 0.0447, time elapsed 0:7s.
+Train epoch 219 on NUDT-SIRST, loss: 0.0445, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.24227285385132
+mIoU: 93.62352698663553  Best_mIoU: 93.62352698663553
+nIoU: 93.75934916588386  Best_nIoU: 93.75934916588386
+Pd: 99.36507936507937
+Fa: 4.894761786999879
+
+Train epoch 220 on NUDT-SIRST, loss: 0.0432, time elapsed 0:6s.
+Train epoch 221 on NUDT-SIRST, loss: 0.0440, time elapsed 0:6s.
+Train epoch 222 on NUDT-SIRST, loss: 0.0443, time elapsed 0:6s.
+Train epoch 223 on NUDT-SIRST, loss: 0.0443, time elapsed 0:6s.
+Train epoch 224 on NUDT-SIRST, loss: 0.0440, time elapsed 0:6s.
+Train epoch 225 on NUDT-SIRST, loss: 0.0429, time elapsed 0:6s.
+Train epoch 226 on NUDT-SIRST, loss: 0.0432, time elapsed 0:6s.
+Train epoch 227 on NUDT-SIRST, loss: 0.0426, time elapsed 0:6s.
+Train epoch 228 on NUDT-SIRST, loss: 0.0431, time elapsed 0:6s.
+Train epoch 229 on NUDT-SIRST, loss: 0.0418, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.22814655303955
+mIoU: 93.35960253554909  Best_mIoU: 93.62352698663553
+nIoU: 93.50921212212657  Best_nIoU: 93.75934916588386
+Pd: 98.94179894179894
+Fa: 5.308403615345014
+
+Train epoch 230 on NUDT-SIRST, loss: 0.0430, time elapsed 0:6s.
+Train epoch 231 on NUDT-SIRST, loss: 0.0442, time elapsed 0:6s.
+Train epoch 232 on NUDT-SIRST, loss: 0.0408, time elapsed 0:6s.
+Train epoch 233 on NUDT-SIRST, loss: 0.0412, time elapsed 0:6s.
+Train epoch 234 on NUDT-SIRST, loss: 0.0434, time elapsed 0:7s.
+Train epoch 235 on NUDT-SIRST, loss: 0.0418, time elapsed 0:6s.
+Train epoch 236 on NUDT-SIRST, loss: 0.0423, time elapsed 0:6s.
+Train epoch 237 on NUDT-SIRST, loss: 0.0413, time elapsed 0:6s.
+Train epoch 238 on NUDT-SIRST, loss: 0.0413, time elapsed 0:6s.
+Train epoch 239 on NUDT-SIRST, loss: 0.0413, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.42592072486877
+mIoU: 93.75386305885584  Best_mIoU: 93.75386305885584
+nIoU: 93.81503418244553  Best_nIoU: 93.81503418244553
+Pd: 99.25925925925925
+Fa: 4.619000719685573
+
+Train epoch 240 on NUDT-SIRST, loss: 0.0418, time elapsed 0:6s.
+Train epoch 241 on NUDT-SIRST, loss: 0.0402, time elapsed 0:6s.
+Train epoch 242 on NUDT-SIRST, loss: 0.0414, time elapsed 0:6s.
+Train epoch 243 on NUDT-SIRST, loss: 0.0432, time elapsed 0:6s.
+Train epoch 244 on NUDT-SIRST, loss: 0.0419, time elapsed 0:6s.
+Train epoch 245 on NUDT-SIRST, loss: 0.0398, time elapsed 0:6s.
+Train epoch 246 on NUDT-SIRST, loss: 0.0410, time elapsed 0:6s.
+Train epoch 247 on NUDT-SIRST, loss: 0.0397, time elapsed 0:6s.
+Train epoch 248 on NUDT-SIRST, loss: 0.0415, time elapsed 0:6s.
+Train epoch 249 on NUDT-SIRST, loss: 0.0405, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.25287055969238
+mIoU: 93.87248992525747  Best_mIoU: 93.87248992525747
+nIoU: 94.04721080131199  Best_nIoU: 94.04721080131199
+Pd: 98.94179894179894
+Fa: 3.8606572161370423
+
+Train epoch 250 on NUDT-SIRST, loss: 0.0413, time elapsed 0:7s.
+Train epoch 251 on NUDT-SIRST, loss: 0.0408, time elapsed 0:6s.
+Train epoch 252 on NUDT-SIRST, loss: 0.0389, time elapsed 0:6s.
+Train epoch 253 on NUDT-SIRST, loss: 0.0398, time elapsed 0:6s.
+Train epoch 254 on NUDT-SIRST, loss: 0.0423, time elapsed 0:6s.
+Train epoch 255 on NUDT-SIRST, loss: 0.0400, time elapsed 0:6s.
+Train epoch 256 on NUDT-SIRST, loss: 0.0384, time elapsed 0:6s.
+Train epoch 257 on NUDT-SIRST, loss: 0.0388, time elapsed 0:6s.
+Train epoch 258 on NUDT-SIRST, loss: 0.0400, time elapsed 0:6s.
+Train epoch 259 on NUDT-SIRST, loss: 0.0389, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.30231261253357
+mIoU: 93.71090796618324  Best_mIoU: 93.87248992525747
+nIoU: 93.9459016594022  Best_nIoU: 94.04721080131199
+Pd: 99.25925925925925
+Fa: 5.561184934776975
+
+Train epoch 260 on NUDT-SIRST, loss: 0.0384, time elapsed 0:6s.
+Train epoch 261 on NUDT-SIRST, loss: 0.0392, time elapsed 0:6s.
+Train epoch 262 on NUDT-SIRST, loss: 0.0390, time elapsed 0:6s.
+Train epoch 263 on NUDT-SIRST, loss: 0.0393, time elapsed 0:6s.
+Train epoch 264 on NUDT-SIRST, loss: 0.0399, time elapsed 0:6s.
+Train epoch 265 on NUDT-SIRST, loss: 0.0388, time elapsed 0:6s.
+Train epoch 266 on NUDT-SIRST, loss: 0.0383, time elapsed 0:7s.
+Train epoch 267 on NUDT-SIRST, loss: 0.0385, time elapsed 0:6s.
+Train epoch 268 on NUDT-SIRST, loss: 0.0388, time elapsed 0:6s.
+Train epoch 269 on NUDT-SIRST, loss: 0.0389, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.45770788192749
+mIoU: 93.84921998488076  Best_mIoU: 93.87248992525747
+nIoU: 93.95054655312258  Best_nIoU: 94.04721080131199
+Pd: 99.15343915343915
+Fa: 5.446284376375843
+
+Train epoch 270 on NUDT-SIRST, loss: 0.0397, time elapsed 0:6s.
+Train epoch 271 on NUDT-SIRST, loss: 0.0381, time elapsed 0:6s.
+Train epoch 272 on NUDT-SIRST, loss: 0.0389, time elapsed 0:6s.
+Train epoch 273 on NUDT-SIRST, loss: 0.0379, time elapsed 0:6s.
+Train epoch 274 on NUDT-SIRST, loss: 0.0375, time elapsed 0:6s.
+Train epoch 275 on NUDT-SIRST, loss: 0.0379, time elapsed 0:6s.
+Train epoch 276 on NUDT-SIRST, loss: 0.0374, time elapsed 0:6s.
+Train epoch 277 on NUDT-SIRST, loss: 0.0377, time elapsed 0:6s.
+Train epoch 278 on NUDT-SIRST, loss: 0.0377, time elapsed 0:6s.
+Train epoch 279 on NUDT-SIRST, loss: 0.0366, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.25993371009827
+mIoU: 93.7469904381922  Best_mIoU: 93.87248992525747
+nIoU: 94.05874350092905  Best_nIoU: 94.05874350092905
+Pd: 99.04761904761905
+Fa: 5.515224984264933
+
+Train epoch 280 on NUDT-SIRST, loss: 0.0383, time elapsed 0:6s.
+Train epoch 281 on NUDT-SIRST, loss: 0.0372, time elapsed 0:6s.
+Train epoch 282 on NUDT-SIRST, loss: 0.0380, time elapsed 0:6s.
+Train epoch 283 on NUDT-SIRST, loss: 0.0369, time elapsed 0:6s.
+Train epoch 284 on NUDT-SIRST, loss: 0.0361, time elapsed 0:6s.
+Train epoch 285 on NUDT-SIRST, loss: 0.0371, time elapsed 0:6s.
+Train epoch 286 on NUDT-SIRST, loss: 0.0362, time elapsed 0:6s.
+Train epoch 287 on NUDT-SIRST, loss: 0.0358, time elapsed 0:6s.
+Train epoch 288 on NUDT-SIRST, loss: 0.0366, time elapsed 0:6s.
+Train epoch 289 on NUDT-SIRST, loss: 0.0368, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.55306339263916
+mIoU: 93.88070464613166  Best_mIoU: 93.88070464613166
+nIoU: 94.06060242582906  Best_nIoU: 94.06060242582906
+Pd: 99.15343915343915
+Fa: 5.905886609980371
+
+Train epoch 290 on NUDT-SIRST, loss: 0.0372, time elapsed 0:6s.
+Train epoch 291 on NUDT-SIRST, loss: 0.0358, time elapsed 0:6s.
+Train epoch 292 on NUDT-SIRST, loss: 0.0360, time elapsed 0:6s.
+Train epoch 293 on NUDT-SIRST, loss: 0.0363, time elapsed 0:6s.
+Train epoch 294 on NUDT-SIRST, loss: 0.0383, time elapsed 0:6s.
+Train epoch 295 on NUDT-SIRST, loss: 0.0363, time elapsed 0:6s.
+Train epoch 296 on NUDT-SIRST, loss: 0.0379, time elapsed 0:6s.
+Train epoch 297 on NUDT-SIRST, loss: 0.0366, time elapsed 0:7s.
+Train epoch 298 on NUDT-SIRST, loss: 0.0347, time elapsed 0:6s.
+Train epoch 299 on NUDT-SIRST, loss: 0.0372, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.41885757446289
+mIoU: 93.70194947830862  Best_mIoU: 93.88070464613166
+nIoU: 94.10884532989438  Best_nIoU: 94.10884532989438
+Pd: 99.15343915343915
+Fa: 7.146812095015775
+
+Train epoch 300 on NUDT-SIRST, loss: 0.0362, time elapsed 0:6s.
+Train epoch 301 on NUDT-SIRST, loss: 0.0353, time elapsed 0:6s.
+Train epoch 302 on NUDT-SIRST, loss: 0.0345, time elapsed 0:6s.
+Train epoch 303 on NUDT-SIRST, loss: 0.0349, time elapsed 0:6s.
+Train epoch 304 on NUDT-SIRST, loss: 0.0358, time elapsed 0:6s.
+Train epoch 305 on NUDT-SIRST, loss: 0.0351, time elapsed 0:6s.
+Train epoch 306 on NUDT-SIRST, loss: 0.0341, time elapsed 0:6s.
+Train epoch 307 on NUDT-SIRST, loss: 0.0351, time elapsed 0:6s.
+Train epoch 308 on NUDT-SIRST, loss: 0.0358, time elapsed 0:6s.
+Train epoch 309 on NUDT-SIRST, loss: 0.0355, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.58837914466858
+mIoU: 93.78622132299989  Best_mIoU: 93.88070464613166
+nIoU: 94.1257106526924  Best_nIoU: 94.1257106526924
+Pd: 99.15343915343915
+Fa: 7.008931333984947
+
+Train epoch 310 on NUDT-SIRST, loss: 0.0353, time elapsed 0:6s.
+Train epoch 311 on NUDT-SIRST, loss: 0.0358, time elapsed 0:6s.
+Train epoch 312 on NUDT-SIRST, loss: 0.0347, time elapsed 0:7s.
+Train epoch 313 on NUDT-SIRST, loss: 0.0347, time elapsed 0:6s.
+Train epoch 314 on NUDT-SIRST, loss: 0.0341, time elapsed 0:6s.
+Train epoch 315 on NUDT-SIRST, loss: 0.0363, time elapsed 0:6s.
+Train epoch 316 on NUDT-SIRST, loss: 0.0351, time elapsed 0:6s.
+Train epoch 317 on NUDT-SIRST, loss: 0.0337, time elapsed 0:6s.
+Train epoch 318 on NUDT-SIRST, loss: 0.0343, time elapsed 0:6s.
+Train epoch 319 on NUDT-SIRST, loss: 0.0345, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:27s.
+pixAcc: 96.46124243736267
+mIoU: 93.76566308489821  Best_mIoU: 93.88070464613166
+nIoU: 94.09715468256223  Best_nIoU: 94.1257106526924
+Pd: 99.15343915343915
+Fa: 6.687209861411247
+
+Train epoch 320 on NUDT-SIRST, loss: 0.0337, time elapsed 0:6s.
+Train epoch 321 on NUDT-SIRST, loss: 0.0343, time elapsed 0:6s.
+Train epoch 322 on NUDT-SIRST, loss: 0.0335, time elapsed 0:6s.
+Train epoch 323 on NUDT-SIRST, loss: 0.0364, time elapsed 0:6s.
+Train epoch 324 on NUDT-SIRST, loss: 0.0355, time elapsed 0:6s.
+Train epoch 325 on NUDT-SIRST, loss: 0.0348, time elapsed 0:6s.
+Train epoch 326 on NUDT-SIRST, loss: 0.0333, time elapsed 0:6s.
+Train epoch 327 on NUDT-SIRST, loss: 0.0339, time elapsed 0:6s.
+Train epoch 328 on NUDT-SIRST, loss: 0.0351, time elapsed 0:7s.
+Train epoch 329 on NUDT-SIRST, loss: 0.0355, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.63429260253906
+mIoU: 93.74721622640216  Best_mIoU: 93.88070464613166
+nIoU: 94.09594742785809  Best_nIoU: 94.1257106526924
+Pd: 99.15343915343915
+Fa: 7.169792297645472
+
+Train epoch 330 on NUDT-SIRST, loss: 0.0339, time elapsed 0:6s.
+Train epoch 331 on NUDT-SIRST, loss: 0.0351, time elapsed 0:6s.
+Train epoch 332 on NUDT-SIRST, loss: 0.0331, time elapsed 0:6s.
+Train epoch 333 on NUDT-SIRST, loss: 0.0349, time elapsed 0:6s.
+Train epoch 334 on NUDT-SIRST, loss: 0.0346, time elapsed 0:6s.
+Train epoch 335 on NUDT-SIRST, loss: 0.0340, time elapsed 0:6s.
+Train epoch 336 on NUDT-SIRST, loss: 0.0343, time elapsed 0:6s.
+Train epoch 337 on NUDT-SIRST, loss: 0.0348, time elapsed 0:6s.
+Train epoch 338 on NUDT-SIRST, loss: 0.0335, time elapsed 0:6s.
+Train epoch 339 on NUDT-SIRST, loss: 0.0351, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.46830558776855
+mIoU: 93.89824682021313  Best_mIoU: 93.89824682021313
+nIoU: 94.18215893144286  Best_nIoU: 94.18215893144286
+Pd: 99.15343915343915
+Fa: 6.319528438325506
+
+Train epoch 340 on NUDT-SIRST, loss: 0.0342, time elapsed 0:6s.
+Train epoch 341 on NUDT-SIRST, loss: 0.0325, time elapsed 0:6s.
+Train epoch 342 on NUDT-SIRST, loss: 0.0350, time elapsed 0:6s.
+Train epoch 343 on NUDT-SIRST, loss: 0.0343, time elapsed 0:6s.
+Train epoch 344 on NUDT-SIRST, loss: 0.0351, time elapsed 0:7s.
+Train epoch 345 on NUDT-SIRST, loss: 0.0343, time elapsed 0:6s.
+Train epoch 346 on NUDT-SIRST, loss: 0.0355, time elapsed 0:6s.
+Train epoch 347 on NUDT-SIRST, loss: 0.0345, time elapsed 0:6s.
+Train epoch 348 on NUDT-SIRST, loss: 0.0336, time elapsed 0:6s.
+Train epoch 349 on NUDT-SIRST, loss: 0.0329, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.58485054969788
+mIoU: 93.67036580353472  Best_mIoU: 93.89824682021313
+nIoU: 94.06672469334204  Best_nIoU: 94.18215893144286
+Pd: 99.15343915343915
+Fa: 7.744294634903781
+
+Train epoch 350 on NUDT-SIRST, loss: 0.0351, time elapsed 0:6s.
+Train epoch 351 on NUDT-SIRST, loss: 0.0347, time elapsed 0:6s.
+Train epoch 352 on NUDT-SIRST, loss: 0.0371, time elapsed 0:6s.
+Train epoch 353 on NUDT-SIRST, loss: 0.0327, time elapsed 0:6s.
+Train epoch 354 on NUDT-SIRST, loss: 0.0347, time elapsed 0:6s.
+Train epoch 355 on NUDT-SIRST, loss: 0.0342, time elapsed 0:6s.
+Train epoch 356 on NUDT-SIRST, loss: 0.0344, time elapsed 0:6s.
+Train epoch 357 on NUDT-SIRST, loss: 0.0347, time elapsed 0:6s.
+Train epoch 358 on NUDT-SIRST, loss: 0.0336, time elapsed 0:6s.
+Train epoch 359 on NUDT-SIRST, loss: 0.0340, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.54600024223328
+mIoU: 93.53017654304092  Best_mIoU: 93.89824682021313
+nIoU: 94.02179689012347  Best_nIoU: 94.18215893144286
+Pd: 99.15343915343915
+Fa: 8.502638593199663
+
+Train epoch 360 on NUDT-SIRST, loss: 0.0340, time elapsed 0:6s.
+Train epoch 361 on NUDT-SIRST, loss: 0.0341, time elapsed 0:6s.
+Train epoch 362 on NUDT-SIRST, loss: 0.0340, time elapsed 0:6s.
+Train epoch 363 on NUDT-SIRST, loss: 0.0350, time elapsed 0:6s.
+Train epoch 364 on NUDT-SIRST, loss: 0.0346, time elapsed 0:6s.
+Train epoch 365 on NUDT-SIRST, loss: 0.0343, time elapsed 0:6s.
+Train epoch 366 on NUDT-SIRST, loss: 0.0334, time elapsed 0:6s.
+Train epoch 367 on NUDT-SIRST, loss: 0.0331, time elapsed 0:6s.
+Train epoch 368 on NUDT-SIRST, loss: 0.0341, time elapsed 0:6s.
+Train epoch 369 on NUDT-SIRST, loss: 0.0342, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.57425284385681
+mIoU: 93.72429394022484  Best_mIoU: 93.89824682021313
+nIoU: 94.10122067280032  Best_nIoU: 94.18215893144286
+Pd: 99.15343915343915
+Fa: 7.284692856046604
+
+Train epoch 370 on NUDT-SIRST, loss: 0.0338, time elapsed 0:6s.
+Train epoch 371 on NUDT-SIRST, loss: 0.0332, time elapsed 0:6s.
+Train epoch 372 on NUDT-SIRST, loss: 0.0350, time elapsed 0:6s.
+Train epoch 373 on NUDT-SIRST, loss: 0.0326, time elapsed 0:6s.
+Train epoch 374 on NUDT-SIRST, loss: 0.0344, time elapsed 0:6s.
+Train epoch 375 on NUDT-SIRST, loss: 0.0337, time elapsed 0:6s.
+Train epoch 376 on NUDT-SIRST, loss: 0.0333, time elapsed 0:7s.
+Train epoch 377 on NUDT-SIRST, loss: 0.0338, time elapsed 0:6s.
+Train epoch 378 on NUDT-SIRST, loss: 0.0345, time elapsed 0:6s.
+Train epoch 379 on NUDT-SIRST, loss: 0.0355, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.60956859588623
+mIoU: 93.73929134397918  Best_mIoU: 93.89824682021313
+nIoU: 94.11167712402418  Best_nIoU: 94.18215893144286
+Pd: 99.15343915343915
+Fa: 7.422573162330082
+
+Train epoch 380 on NUDT-SIRST, loss: 0.0333, time elapsed 0:6s.
+Train epoch 381 on NUDT-SIRST, loss: 0.0346, time elapsed 0:6s.
+Train epoch 382 on NUDT-SIRST, loss: 0.0329, time elapsed 0:6s.
+Train epoch 383 on NUDT-SIRST, loss: 0.0345, time elapsed 0:6s.
+Train epoch 384 on NUDT-SIRST, loss: 0.0347, time elapsed 0:6s.
+Train epoch 385 on NUDT-SIRST, loss: 0.0348, time elapsed 0:6s.
+Train epoch 386 on NUDT-SIRST, loss: 0.0336, time elapsed 0:6s.
+Train epoch 387 on NUDT-SIRST, loss: 0.0355, time elapsed 0:6s.
+Train epoch 388 on NUDT-SIRST, loss: 0.0330, time elapsed 0:6s.
+Train epoch 389 on NUDT-SIRST, loss: 0.0336, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.5424656867981
+mIoU: 93.75771710797092  Best_mIoU: 93.89824682021313
+nIoU: 94.14668076025968  Best_nIoU: 94.18215893144286
+Pd: 99.15343915343915
+Fa: 7.169792297645472
+
+Train epoch 390 on NUDT-SIRST, loss: 0.0343, time elapsed 0:6s.
+Train epoch 391 on NUDT-SIRST, loss: 0.0343, time elapsed 0:6s.
+Train epoch 392 on NUDT-SIRST, loss: 0.0329, time elapsed 0:7s.
+Train epoch 393 on NUDT-SIRST, loss: 0.0339, time elapsed 0:6s.
+Train epoch 394 on NUDT-SIRST, loss: 0.0334, time elapsed 0:6s.
+Train epoch 395 on NUDT-SIRST, loss: 0.0327, time elapsed 0:6s.
+Train epoch 396 on NUDT-SIRST, loss: 0.0344, time elapsed 0:6s.
+Train epoch 397 on NUDT-SIRST, loss: 0.0340, time elapsed 0:6s.
+Train epoch 398 on NUDT-SIRST, loss: 0.0315, time elapsed 0:6s.
+Train epoch 399 on NUDT-SIRST, loss: 0.0333, time elapsed 0:6s.
+-----------------------
+Eval on NUDT-SIRST, time elapsed 0:26s.
+pixAcc: 96.7013955116272
+mIoU: 93.5271211914196  Best_mIoU: 93.89824682021313
+nIoU: 94.05600994148278  Best_nIoU: 94.18215893144286
+Pd: 99.15343915343915
+Fa: 8.916280421544798
+
+
+========== Inference ===========
+=========================
+Inference on NUDT-SIRST with mIoU, time elapsed 0:27s.
+pixAcc: 96.46830558776855
+mIoU: 93.89824682021313
+nIoU: 94.18215893144286
+Pd: 99.15343915343915
+Fa: 6.319528438325506
+
+=========================
+Inference on NUDT-SIRST with nIoU, time elapsed 0:27s.
+pixAcc: 96.46830558776855
+mIoU: 93.89824682021313
+nIoU: 94.18215893144286
+Pd: 99.15343915343915
+Fa: 6.319528438325506
+
