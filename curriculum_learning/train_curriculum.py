@@ -359,62 +359,6 @@ class Trainer(object):
                 print('Pd: ' + str(eval_Pd * 1e2))
                 print('Fa: ' + str(eval_Fa * 1e6))
                 print('')
-#新增
-    """ def validate(self, epoch):
-        self.model.eval()
-        val_loss = 0.0
-        self.mIoU_metric.reset()
-        self.pd_fa_metric.reset()
-        
-        with torch.no_grad():
-            for data, target in self.val_loader:
-                data, target = data.to(self.device), target.to(self.device)
-                output = self.model(data)
-                val_loss += self.criterion(output, target).item() * data.size(0)
-                
-                # 计算验证指标
-                pred = torch.sigmoid(output) > 0.5
-                self.mIoU_metric.add(pred, target)
-                self.pd_fa_metric.add(pred, target)
-        
-        # 计算平均损失和指标
-        val_loss /= len(self.val_loader.dataset)
-        val_mIoU = self.mIoU_metric.get()
-        val_pd, val_fa = self.pd_fa_metric.get()
-        
-        # 记录日志
-        self.writer.add_scalar('val/loss', val_loss, epoch)
-        self.writer.add_scalar('val/mIoU', val_mIoU, epoch)
-        self.writer.add_scalar('val/PD', val_pd, epoch)
-        self.writer.add_scalar('val/FA', val_fa, epoch)
-        
-        print(f'Epoch {epoch} | Val Loss: {val_loss:.4f} | mIoU: {val_mIoU:.4f} | PD: {val_pd:.4f} | FA: {val_fa:.4f}')
-        
-        # 保存最佳模型
-        if val_mIoU > self.best_metric_mIoU:
-            self.best_metric_mIoU = val_mIoU
-            self._save_checkpoint(epoch, val_mIoU)
-            print(f'Saved new best model with mIoU: {val_mIoU:.4f}')
-            
-        return val_mIoU """
-    #新增
-    """ def run(self):
-        print(f"Starting training from epoch {self.epoch_state}")
-        for epoch in range(self.epoch_state, self.opt.epochs):
-            # 训练
-            self.train(epoch)
-            # 验证并获取mIoU指标
-            val_mIoU = self.validate(epoch)
-            
-            # 更新课程进度（传入验证指标用于自适应调整）
-            self.train_dataset.set_epoch(epoch, val_metric=val_mIoU)
-            
-            # 学习率调度
-            self.scheduler.step()
-        
-        print(f"Training completed. Best validation mIoU: {self.best_metric_mIoU:.4f}")
-        self.writer.close()
- """
 
 if __name__ == '__main__':
 
